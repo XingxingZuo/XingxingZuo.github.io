@@ -204,7 +204,8 @@ blockquote {
 .social {
   text-align: center;
   .contact-icons {
-    font-size: 4rem;
+    text-align: center;
+    font-size: 12rem;
     a {
       i::before {
         color: var(--global-text-color);
