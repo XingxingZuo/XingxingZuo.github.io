@@ -1,47 +1,48 @@
 ---
 ---
 
-@article{zuo2019visual,
-  title={Visual-Inertial Localization With Prior LiDAR Map Constraints},
-  author={Zuo, Xingxing and Geneva, Patrick and Yang, Yulin and Ye, Wenlong and Liu, Yong and Huang, Guoquan},
-  journal={IEEE Robotics and Automation Letters},
-  volume={4},
+@inproceedings{zuo2021codevio,
+  title={CodeVIO: Visual-inertial odometry with learned optimizable dense depth},
+  author={Zuo, Xingxing and Merrill, Nathaniel and Li, Wei and Liu, Yong and Pollefeys, Marc and Huang, Guoquan},
+  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={14382--14388},
+  year={2021},
+  organization={IEEE},
+  abstract={In this work, we present a lightweight, tightly-coupled deep depth network and visual-inertial odometry (VIO) system, which can provide accurate state estimates and dense depth maps of the immediate surroundings. Leveraging the proposed lightweight Conditional Variational Autoencoder (CVAE) for depth inference and encoding, we provide the network with previously marginalized sparse features from VIO to increase the accuracy of initial depth prediction and generalization capability. The compact encoded depth maps are then updated jointly with navigation states in a sliding window estimator in order to provide the dense local scene geometry. We additionally propose a novel method to obtain the CVAE's Jacobian which is shown to be more than an order of magnitude faster than previous works, and we additionally leverage First-Estimate Jacobian (FEJ) to avoid recalculation. As opposed to previous works relying on completely dense residuals, we propose to only provide sparse measurements to update the depth code and show through careful experimentation that our choice of sparse measurements and FEJs can still significantly improve the estimated depth maps. Our full system also exhibits state-of-the-art pose estimation accuracy, and we show that it can run in real-time with single-thread execution while utilizing GPU acceleration only for the network and code Jacobian.},
+  abbr={codevio},
+  arxiv={2012.10133},
+  video={https://www.youtube.com/watch?v=tr_vflFjghY}
+}
+
+@article{zhang2021pose,
+  title={Pose Estimation for Ground Robots: On Manifold Representation, Integration, Reparameterization, and Optimization},
+  author={Zhang*, Mingming and Zuo*, Xingxing and Chen, Yiming and Liu, Yong and Li, Mingyang},
+  journal={IEEE Transactions on Robotics},
+  year={2021},
+  volume={37},
   number={4},
-  pages={3394--3401},
-  year={2019},
+  pages={1081-1099},
   publisher={IEEE},
-  abbr={mapreuse},
-  video={https://www.youtube.com/watch?v=76fXMVhhX4E&t=1s},
-  abstract={In this letter, we develop a low-cost stereo visual-inertial localization system, which leverages efficient multi-state constraint Kalman filter (MSCKF)-based visual-inertial odometry (VIO) while utilizing an a priori LiDAR map to provide bounded-error three-dimensional navigation. Besides the standard sparse visual feature measurements used in VIO, the global registrations of visual semi-dense clouds to the prior LiDAR map are also exploited in a tightly-coupled MSCKF update, thus correcting accumulated drift. This cross-modality constraint between visual and LiDAR pointclouds is particularly addressed. The proposed approach is validated on both Monte Carlo simulations and real-world experiments, showing that LiDAR map constraints between clouds created through different sensing modalities greatly improve the standard VIO and provide bounded-error performance.}
+  abstract={In this article, we focus on pose estimation dedicated to nonholonomic ground robots with low-cost sensors, by probabilistically fusing measurements from wheel odometers and an exteroceptive sensor. For ground robots, wheel odometers are widely used in pose estimation tasks, especially in applications in planar scenes. However, since wheel odometer only provides two-dimensional (2D) motion measurements, it is extremely challenging to use that for accurate full 6-D pose (3-D position and 3-D orientation) estimation. Traditional methods for 6-D pose estimation with wheel odometers either approximate motion profiles at the cost of accuracy reduction, or rely on other sensors, e.g., inertial measurement unit, to provide complementary measurements. By contrast, we propose a novel motion-manifold-based method for pose estimation of ground robots, which enables to utilize wheel odometers for high-precision 6-D pose estimation. Specifically, the proposed method, first, formulates the motion manifold of ground robots by a parametric representation, second, performs manifold-based 6-D integration with wheel odometer measurements only, and third, reparameterizes manifold representation periodically for error reduction. To demonstrate the effectiveness and applicability of the proposed algorithmic module, we integrate that into a sliding-window pose estimator by using measurements from wheel odometers and a monocular camera. Extensive simulated and real-world experiments are conducted for evaluation, and the proposed algorithm is shown to outperform competing the state-of-the-art algorithms by a significant margin in pose estimation accuracy, especially when deployed in complex, large-scale real-world environments.},
+  abbr={manifold},
+  arxiv={1909.03423},
+  video={https://www.youtube.com/watch?v=XGsQPqx2LY4}
 }
 
-@InProceedings{Zuo2019IROS,
-  Title                    = {LIC-Fusion: LiDAR-Inertial-Camera Odometry},
-  Author                   = {Zuo, Xingxing and Geneva, Patrick and Lee, Woosik and Liu, Yong and Huang, Guoquan},
-  Booktitle                = {Proc. IEEE/RSJ International Conference on Intelligent Robots and Systems},
-    year={2019},
-  pages={5848-5854},
-  doi={10.1109/IROS40897.2019.8967746},
-  Address                  = {Macau, China},
-  abbr={codevio_gif}
-}
-
-@InProceedings{Zuo2019ISRR,
-  Title                    = {Visual-Inertial Localization for Skid-Steering Robots with Kinematic Constraints},
-  Author                   = {Zuo, Xingxing and Zhang, Mingming and Chen, Yiming and Liu, Yong and Huang, Guoquan and Li, Mingyang},
-  Booktitle                = {International Symposium on Robotics Research (ISRR)},
-  Year                     = {2019},
-    Address                  = {Hanoi, Vietnam}
-}
 
 @InProceedings{Zuo2020IROS,
   Title                    = {LIC-Fusion 2.0: LiDAR-Inertial-Camera Odometry with Sliding-Window Plane-Feature Tracking},
   author={Zuo, Xingxing and Yang, Yulin and Geneva, Patrick and Lv, Jiajun and Liu, Yong and Huang, Guoquan and Pollefeys, Marc},
-  Booktitle                = {Proc. IEEE/RSJ International Conference on Intelligent Robots and Systems},
+  Booktitle                = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   year={2020},
   pages={5112-5119},
   Address                  = {Las Vegas, NV, USA},
-  url={https://arxiv.org/pdf/2008.07196}
+  abstract={Multi-sensor fusion of multi-modal measurements from commodity inertial, visual and LiDAR sensors to provide robust and accurate 6DOF pose estimation holds great potential in robotics and beyond. In this paper, building upon our prior work (i.e., LIC-Fusion), we develop a sliding-window filter based LiDAR-Inertial-Camera odometry with online spatiotemporal calibration (i.e., LIC-Fusion 2.0), which introduces a novel sliding-window plane-feature tracking for efficiently processing 3D LiDAR point clouds. In particular, after motion compensation for LiDAR points by leveraging IMU data, low-curvature planar points are extracted and tracked across the sliding window. A novel outlier rejection criterion is proposed in the plane-feature tracking for high-quality data association. Only the tracked planar points belonging to the same plane will be used for plane initialization, which makes the plane extraction efficient and robust. Moreover, we perform the observability analysis for the LiDAR-IMU subsystem and report the degenerate cases for spatiotemporal calibration using plane features. While the estimation consistency and identified degenerate motions are validated in Monte-Carlo simulations, different real-world experiments are also conducted to show that the proposed LIC-Fusion 2.0 outperforms its predecessor and other state-of-the-art methods.},
+  supp={tr_lic2.pdf},
+  abbr={lic2_sim},
+  arxiv={2008.07196},
+  video={https://www.youtube.com/watch?v=waE5nepxD-Q},
+  video_extra={https://www.youtube.com/watch?v=waE5nepxD-Q}
 }
 
 
@@ -53,17 +54,61 @@
   number={6},
   pages={1003--1026},
   year={2020},
-  publisher={Wiley Online Library}
+  publisher={Wiley Online Library},
+  abstract={In this paper, we present a real-time high-precision visual localization system for an autonomous vehicle which employs only low-cost stereo cameras to localize the vehicle with a priori map built using a more expensive 3D LiDAR sensor. To this end, we construct two different visual maps: a sparse feature visual map for visual odometry (VO) based motion tracking, and a semidense visual map for registration with the prior LiDAR map. To register two point clouds sourced from different modalities (i.e., cameras and LiDAR), we leverage probabilistic weighted normal distributions transformation (ProW-NDT), by particularly taking into account the uncertainty of source point clouds. The registration results are then fused via pose graph optimization to correct the VO drift. Moreover, surfels extracted from the prior LiDAR map are used to refine the sparse 3D visual features that will further improve VO-based motion estimation. The proposed system has been tested extensively in both simulated and real-world experiments, showing that robust, high-precision, real-time localization can be achieved.},
+  abbr={jfr_multimodal}
+}
+
+@InProceedings{Zuo2019IROS,
+  Title                    = {LIC-Fusion: LiDAR-Inertial-Camera Odometry},
+  Author                   = {Zuo, Xingxing and Geneva, Patrick and Lee, Woosik and Liu, Yong and Huang, Guoquan},
+  Booktitle                = {IEEE/RSJ International Conference on Intelligent Robots and Systems},
+    year={2019},
+  pages={5848-5854},
+  doi={10.1109/IROS40897.2019.8967746},
+  Address                  = {Macau, China},
+  abstract={This paper presents a tightly-coupled multi-sensor fusion algorithm termed LiDAR-inertial-camera fusion (LIC-Fusion), which efficiently fuses IMU measurements, sparse visual features, and extracted LiDAR points. In particular, the proposed LIC-Fusion performs online spatial and temporal sensor calibration between all three asynchronous sensors, in order to compensate for possible calibration variations. The key contribution is the optimal (up to linearization errors) multi-modal sensor fusion of detected and tracked sparse edge/surf feature points from LiDAR scans within an efficient MSCKF-based framework, alongside sparse visual feature observations and IMU readings. We perform extensive experiments in both indoor and outdoor environments, showing that the proposed LIC-Fusion outperforms the state-of-the-art visual-inertial odometry (VIO) and LiDAR odometry methods in terms of estimation accuracy and robustness to aggressive motions.},
+  abbr={lic1},
+  arxiv={1909.04102},
+  video={https://www.youtube.com/watch?v=z8WG4miBk3s}
+}
+
+@InProceedings{Zuo2019ISRR,
+  Title                    = {Visual-Inertial Localization for Skid-Steering Robots with Kinematic Constraints},
+  Author                   = {Zuo, Xingxing and Zhang, Mingming and Chen, Yiming and Liu, Yong and Huang, Guoquan and Li, Mingyang},
+  Booktitle                = {International Symposium on Robotics Research (ISRR)},
+  Year                     = {2019},
+  Address                  = {Hanoi, Vietnam},
+  abstract={While visual localization or SLAM has witnessed great progress in past decades, when deploying it on a mobile robot in practice, few works have explicitly considered the kinematic (or dynamic) constraints of the real robotic system when designing state estimators. To promote the practical deployment of current state-of-the-art visual-inertial localization algorithms, in this work we propose a low-cost kinematics-constrained localization system particularly for a skid-steering mobile robot. In particular, we derive in a principle way the robot's kinematic constraints based on the instantaneous centers of rotation (ICR) model and integrate them in a tightly-coupled manner into the sliding-window bundle adjustment (BA)-based visual-inertial estimator. Because the ICR model parameters are time-varying due to, for example, track-to-terrain interaction and terrain roughness, we estimate these kinematic parameters online along with the navigation state. To this end, we perform in-depth the observability analysis and identify motion conditions under which the state/parameter estimation is viable. The proposed kinematics-constrained visual-inertial localization system has been validated extensively in different terrain scenarios.},
+  supp={tr_icr.pdf},
+  abbr={icr},
+  arxiv={1911.05787}
+}
+
+@article{zuo2019visual,
+  title={Visual-Inertial Localization With Prior LiDAR Map Constraints},
+  author={Zuo, Xingxing and Geneva, Patrick and Yang, Yulin and Ye, Wenlong and Liu, Yong and Huang, Guoquan},
+  journal={IEEE Robotics and Automation Letters},
+  volume={4},
+  number={4},
+  pages={3394--3401},
+  year={2019},
+  publisher={IEEE},
+  abstract={In this letter, we develop a low-cost stereo visual-inertial localization system, which leverages efficient multi-state constraint Kalman filter (MSCKF)-based visual-inertial odometry (VIO) while utilizing an a priori LiDAR map to provide bounded-error three-dimensional navigation. Besides the standard sparse visual feature measurements used in VIO, the global registrations of visual semi-dense clouds to the prior LiDAR map are also exploited in a tightly-coupled MSCKF update, thus correcting accumulated drift. This cross-modality constraint between visual and LiDAR pointclouds is particularly addressed. The proposed approach is validated on both Monte Carlo simulations and real-world experiments, showing that LiDAR map constraints between clouds created through different sensing modalities greatly improve the standard VIO and provide bounded-error performance.},
+  abbr={mapreuse},
+  video={https://www.youtube.com/watch?v=76fXMVhhX4E&t=1s}
 }
 
 
-@article{zhang2021pose,
-  title={Pose Estimation for Ground Robots: On Manifold Representation, Integration, Reparameterization, and Optimization},
-  author={Zhang, Mingming and Zuo, Xingxing and Chen, Yiming and Liu, Yong and Li, Mingyang},
-  journal={IEEE Transactions on Robotics},
-  year={2021},
-  volume={37},
-  number={4},
-  pages={1081-1099},
-  publisher={IEEE}
+@inproceedings{zuo2017robust,
+  title={Robust visual SLAM with point and line features},
+  author={Zuo, Xingxing and Xie, Xiaojia and Liu, Yong and Huang, Guoquan},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={1775--1782},
+  year={2017},
+  organization={IEEE},
+  abstract={In this paper, we develop a robust efficient visual SLAM system that utilizes heterogeneous point and line features. By leveraging ORB-SLAM [1], the proposed system consists of stereo matching, frame tracking, local mapping, loop detection, and bundle adjustment of both point and line features. In particular, as the main theoretical contributions of this paper, we, for the first time, employ the orthonormal representation as the minimal parameterization to model line features along with point features in visual SLAM and analytically derive the Jacobians of the re-projection errors with respect to the line parameters, which significantly improves the SLAM solution. The proposed SLAM has been extensively tested in both synthetic and real-world experiments whose results demonstrate that the proposed system outperforms the state-of-the-art methods in various scenarios.},
+  abbr={plslam},
+  arxiv={1711.08654},
+  video={https://www.youtube.com/watch?v=qK8vgY1Gjgg}
 }

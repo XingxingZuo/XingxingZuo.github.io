@@ -2,7 +2,28 @@ mapreuse:
   img: teaser/mapreuse.png
 
 codevio:
-  img: teaser/codevio.png
+  img: teaser/codevio_overview.png
 
 codevio_gif:
   img: teaser/codevio.gif
+
+manifold:
+  img: teaser/manifold.png
+
+lic2:
+  img: teaser/lic2_overview.png
+
+lic2_sim:
+  img: teaser/lic2_sim.gif
+
+jfr_multimodal:
+  img: teaser/jfr_multimodal.png
+
+lic1:
+  img: teaser/lic1_overview.png
+
+icr:
+  img: teaser/icr.png
+
+plslam:
+  img: teaser/plslam_overview.png

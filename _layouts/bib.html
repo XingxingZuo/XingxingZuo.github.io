@@ -1,7 +1,6 @@
 ---
 ---
 <!-- Refer to https://github.com/Mayankm96/Mayankm96.github.io/blob/source/_layouts/bib.html -->
-
 <div id="{{entry.key}}"  class="col three">
   <div style="clear: both;">
     <div style="">
@@ -77,6 +76,9 @@
     {% if entry.video %}
       [<a href="{{ entry.video }}" target="_blank">Video</a>]
     {% endif %}
+    {% if entry.video_extra %}
+      [<a href="{{ entry.video_extra }}" target="_blank">Video2</a>]
+    {% endif %}
     {% if entry.html %}
       [<a href="{{ entry.html }}" target="_blank">Website</a>]
     {% endif %}
@@ -85,6 +87,9 @@
     {% endif %}
     {% if entry.supp %}
       [<a href="{{ entry.supp | prepend: '/assets/documents/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Supp</a>]
+    {% endif %}
+    {% if entry.supplink %}
+      [<a href="{{ entry.supplink }}" target="_blank">Supp1</a>]
     {% endif %}
     {% if entry.poster %}
       [<a href="{{ entry.poster | prepend: '/assets/documents/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Poster</a>]
