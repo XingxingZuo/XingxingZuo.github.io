@@ -1,72 +1,68 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@article{zuo2019visual,
+  title={Visual-Inertial Localization With Prior LiDAR Map Constraints},
+  author={Zuo, Xingxing and Geneva, Patrick and Yang, Yulin and Ye, Wenlong and Liu, Yong and Huang, Guoquan},
+  journal={IEEE Robotics and Automation Letters},
+  volume={4},
+  number={4},
+  pages={3394--3401},
+  year={2019},
+  publisher={IEEE},
+  abbr={mapresue},
+  video={https://www.youtube.com/watch?v=76fXMVhhX4E&t=1s},
+  abstract={In this letter, we develop a low-cost stereo visual-inertial localization system, which leverages efficient multi-state constraint Kalman filter (MSCKF)-based visual-inertial odometry (VIO) while utilizing an a priori LiDAR map to provide bounded-error three-dimensional navigation. Besides the standard sparse visual feature measurements used in VIO, the global registrations of visual semi-dense clouds to the prior LiDAR map are also exploited in a tightly-coupled MSCKF update, thus correcting accumulated drift. This cross-modality constraint between visual and LiDAR pointclouds is particularly addressed. The proposed approach is validated on both Monte Carlo simulations and real-world experiments, showing that LiDAR map constraints between clouds created through different sensing modalities greatly improve the standard VIO and provide bounded-error performance.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
+@InProceedings{Zuo2019IROS,
+  Title                    = {LIC-Fusion: LiDAR-Inertial-Camera Odometry},
+  Author                   = {Zuo, Xingxing and Geneva, Patrick and Lee, Woosik and Liu, Yong and Huang, Guoquan},
+  Booktitle                = {Proc. IEEE/RSJ International Conference on Intelligent Robots and Systems},
+    year={2019},
+  pages={5848-5854},
+  doi={10.1109/IROS40897.2019.8967746},
+  Address                  = {Macau, China}
+}
+
+@InProceedings{Zuo2019ISRR,
+  Title                    = {Visual-Inertial Localization for Skid-Steering Robots with Kinematic Constraints},
+  Author                   = {Zuo, Xingxing and Zhang, Mingming and Chen, Yiming and Liu, Yong and Huang, Guoquan and Li, Mingyang},
+  Booktitle                = {International Symposium on Robotics Research (ISRR)},
+  Year                     = {2019},
+    Address                  = {Hanoi, Vietnam}
+}
+
+@InProceedings{Zuo2020IROS,
+  Title                    = {LIC-Fusion 2.0: LiDAR-Inertial-Camera Odometry with Sliding-Window Plane-Feature Tracking},
+  author={Zuo, Xingxing and Yang, Yulin and Geneva, Patrick and Lv, Jiajun and Liu, Yong and Huang, Guoquan and Pollefeys, Marc},
+  Booktitle                = {Proc. IEEE/RSJ International Conference on Intelligent Robots and Systems},
+  year={2020},
+  pages={5112-5119},
+  Address                  = {Las Vegas, NV, USA},
+  url={https://arxiv.org/pdf/2008.07196}
+}
+
+
+@article{zuo2020multimodal,
+  title={Multimodal localization: Stereo over LiDAR map},
+  author={Zuo, Xingxing and Ye, Wenlong and Yang, Yulin and Zheng, Renjie and Vidal-Calleja, Teresa and Huang, Guoquan and Liu, Yong},
+  journal={Journal of Field Robotics},
+  volume={37},
   number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
+  pages={1003--1026},
+  year={2020},
   publisher={Wiley Online Library}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{zhang2021pose,
+  title={Pose Estimation for Ground Robots: On Manifold Representation, Integration, Reparameterization, and Optimization},
+  author={Zhang, Mingming and Zuo, Xingxing and Chen, Yiming and Liu, Yong and Li, Mingyang},
+  journal={IEEE Transactions on Robotics},
+  year={2021},
+  volume={37},
+  number={4},
+  pages={1081-1099},
+  publisher={IEEE}
 }

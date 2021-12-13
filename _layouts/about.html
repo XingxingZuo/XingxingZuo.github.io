@@ -25,22 +25,22 @@ layout: default
     </div>
     {% endif %}
 
-    <div class="clearfix">
-      {{ content }}
-    </div>
-
-    {% if page.social %}
+    <!-- {% if page.social %}
     <div class="social">
       <div class="contact-icons">
         {% include social.html %}
       </div>
       <div class="contact-note">{{ site.contact_note }}</div>
     </div>
-    {% endif %}
+    {% endif %} -->
 
-    {% if page.news %}
+    <div class="clearfix">
+      {{ content }}
+    </div>
+
+    <!--{% if page.news %}
       {% include news.html %}
-    {% endif %}
+    {% endif %} -->
 
     {% if page.selected_papers %}
       {% include selected_papers.html %}
