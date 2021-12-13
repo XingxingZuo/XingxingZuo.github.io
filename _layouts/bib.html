@@ -1,11 +1,11 @@
 ---
 ---
-
+<!-- Refer to https://github.com/Mayankm96/Mayankm96.github.io/blob/source/_layouts/bib.html -->
 
 <div id="{{entry.key}}"  class="col three">
   <div style="clear: both;">
     <div style="">
-        <img class="col bibone first" src="{{ site.data.teasers[entry.abbr].img| prepend: '/assets/img/teaser/' | prepend: site.baseurl | prepend: site.url }}">
+        <img class="col bibone first" src="{{ site.data.teasers[entry.abbr].img| prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}">
     </div>
   </div>
   <div class="col bibtwo last">
@@ -73,8 +73,6 @@
     {% endif %}
     {% if entry.arxiv %}
       [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
-<!--     {% else%}
-      [arXiv (available soon)] -->
     {% endif %}
     {% if entry.video %}
       [<a href="{{ entry.video }}" target="_blank">Video</a>]

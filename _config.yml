@@ -13,6 +13,8 @@ footer_text: >
   Powered by <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
 # icon: 🔥 # the emoji used as the favicon
+# icon: 🌟
+icon: ✨
 url: https://zuojiaxing.github.io # https://alshedivat.github.io # the base hostname & protocol for your site
 baserul: /pagetest # /al-folio # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer

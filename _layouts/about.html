@@ -25,26 +25,24 @@ layout: default
     </div>
     {% endif %}
 
-    <!-- {% if page.social %}
-    <div class="social">
-      <div class="contact-icons">
-        {% include social.html %}
-      </div>
-      <div class="contact-note">{{ site.contact_note }}</div>
-    </div>
-    {% endif %} -->
-
     <div class="clearfix">
       {{ content }}
     </div>
 
-    <!--{% if page.news %}
-      {% include news.html %}
-    {% endif %} -->
-
     {% if page.selected_papers %}
       {% include selected_papers.html %}
     {% endif %}
+    
+    <div>
+    <a name="publications"><h2 style="text-align:left">selected publications</h2></a>
+    <br>
+    <p style="font-size:22px;"> <i> Find out my full publication list via </i> <a href='https://scholar.google.com/citations?user=CePv8agAAAAJ'>Google Scholar</a>. <br>
+    </p>
+<!--     <sup>*</sup>equal contribution; <sup>&#x0266F;</sup>corresponding author. -->
+    {% for y in page.years %}
+      {% bibliography -f papers -q @*[year={{y}}]* %}
+    {% endfor %}
+    </div>
 
   </article>
 
