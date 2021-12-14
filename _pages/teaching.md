@@ -2,10 +2,22 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: I'm undertaking some teaching duties on mobile robots related courses, and supervising some student projects (Master thesis).
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+Teaching Assistant for [Mobile Robotics](https://mlr.in.tum.de/teaching/w21/mobilerobotics) (IN2404, WinSem 2021-2022, TUM): 
 
-Organize your courses by years, topics, or universities, however you like!
+Mobile robots have been sent to Mars, can vacuum clean our homes, mow the lawn, and are promised to carry us around in the form of self-driving cars or even flying taxis. In this module, you will learn about the different component of such mobile robots and their interactions: from perception to estimation, mapping, and control. As will also learn to work with different mathematical representations of robot states and maps. Since deployment in open-ended environments requires sophisticated perception, localisation, and mapping approaches, we will dedicate a substantial part of the course towards probabilistic multi-sensor-fusion and modern Simultaneous Localisation and Mapping (SLAM) and more general Spatial AI systems – including elements of Machine Learning. In the last part, you will then be learning about how to use these representations of robot state and surroundings for navigation and control.
+
+---
+
+Teaching Assistant for [Mobile Robotics Practicals](https://mlr.in.tum.de/teaching/w21/mobileroboticspracticals) (IN2106, IN4306, WinSem 2021-2022, TUM):
+
+This practical course is aligned with Mobile Robotics, following its theoretical contents with the aim of applying them practically on a drone flying in simulation and ultimately the real world (indoors).
+
+---
+
+### Student Project:
+
+Please find out some of my proposals at [projects page](https://mlr.in.tum.de/teaching/projects). It is welcome to contact me if you are interested in working with me on doing some interesting projects realted to robotic perception, SLAM, and 3D computer vision.

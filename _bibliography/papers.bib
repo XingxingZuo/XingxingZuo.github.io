@@ -29,11 +29,23 @@
   video={https://www.youtube.com/watch?v=XGsQPqx2LY4}
 }
 
+@InProceedings{lv2021clins,
+  title={CLINS: Continuous-Time Trajectory Estimation for LiDAR-Inertial System},
+  author={Lv, Jiajun and Hu, Kewei and Xu, Jinhong and Liu, Yong and Ma, Xiushui and Zuo, Xingxing},
+  Booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year={2021},
+  abstract={In this paper, we propose a highly accurate continuous-time trajectory estimation framework dedicated to SLAM (Simultaneous Localization and Mapping) applications, which enables fuse high-frequency and asynchronous sensor data effectively. We apply the proposed framework in a 3D LiDAR-inertial system for evaluations. The proposed method adopts a non-rigid registration method for continuous-time trajectory estimation and simultaneously removing the motion distortion in LiDAR scans. Additionally, we propose a two-state continuous-time trajectory correction method to efficiently and efficiently tackle the computationally-intractable global optimization problem when loop closure happens. We examine the accuracy of the proposed approach on several publicly available datasets and the data we collected. The experimental results indicate that the proposed method outperforms the discrete-time methods regarding accuracy especially when aggressive motion occurs. Furthermore, we open source our code to benefit research community.},
+  abbr={clins},
+  arxiv={2109.04687},
+  video={https://www.youtube.com/watch?v=7aQJklHg2RM},
+  code={https://github.com/APRIL-ZJU/clins}
+}
+
 
 @InProceedings{Zuo2020IROS,
   Title                    = {LIC-Fusion 2.0: LiDAR-Inertial-Camera Odometry with Sliding-Window Plane-Feature Tracking},
   author={Zuo, Xingxing and Yang, Yulin and Geneva, Patrick and Lv, Jiajun and Liu, Yong and Huang, Guoquan and Pollefeys, Marc},
-  Booktitle                = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  Booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
   year={2020},
   pages={5112-5119},
   Address                  = {Las Vegas, NV, USA},
@@ -57,6 +69,20 @@
   publisher={Wiley Online Library},
   abstract={In this paper, we present a real-time high-precision visual localization system for an autonomous vehicle which employs only low-cost stereo cameras to localize the vehicle with a priori map built using a more expensive 3D LiDAR sensor. To this end, we construct two different visual maps: a sparse feature visual map for visual odometry (VO) based motion tracking, and a semidense visual map for registration with the prior LiDAR map. To register two point clouds sourced from different modalities (i.e., cameras and LiDAR), we leverage probabilistic weighted normal distributions transformation (ProW-NDT), by particularly taking into account the uncertainty of source point clouds. The registration results are then fused via pose graph optimization to correct the VO drift. Moreover, surfels extracted from the prior LiDAR map are used to refine the sparse 3D visual features that will further improve VO-based motion estimation. The proposed system has been tested extensively in both simulated and real-world experiments, showing that robust, high-precision, real-time localization can be achieved.},
   abbr={jfr_multimodal}
+}
+
+@inproceedings{lv2020targetless,
+  title={Targetless calibration of lidar-imu system based on continuous-time batch estimation},
+  author={Lv, Jiajun and Xu, Jinhong and Hu, Kewei and Liu, Yong and Zuo, Xingxing},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={9968--9975},
+  year={2020},
+  organization={IEEE},
+  abstract={Sensor calibration is the fundamental block for a multi-sensor fusion system. This paper presents an accurate and repeatable LiDAR-IMU calibration method (termed LI-Calib), to calibrate the 6-DOF extrinsic transformation between the 3D LiDAR and the Inertial Measurement Unit (IMU). % Regarding the high data capture rate for LiDAR and IMU sensors, LI-Calib adopts a continuous-time trajectory formulation based on B-Spline, which is more suitable for fusing high-rate or asynchronous measurements than discrete-time based approaches. % Additionally, LI-Calib decomposes the space into cells and identifies the planar segments for data association, which renders the calibration problem well-constrained in usual scenarios without any artificial targets. We validate the proposed calibration approach on both simulated and real-world experiments. The results demonstrate the high accuracy and good repeatability of the proposed method in common human-made scenarios. To benefit the research community, the code of this useful toolbox is also open-source.},
+  abbr={LIcalib},
+  arxiv={2007.14759},
+  video={https://www.youtube.com/watch?v=umXgc4bfhy0},
+  code={https://github.com/APRIL-ZJU/lidar_IMU_calib}
 }
 
 @InProceedings{Zuo2019IROS,

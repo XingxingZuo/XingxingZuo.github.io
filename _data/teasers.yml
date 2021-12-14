@@ -27,3 +27,9 @@ icr:
 
 plslam:
   img: teaser/plslam_overview.png
+
+LIcalib:
+  img: teaser/LIcalib.png
+
+clins:
+  img: teaser/clins.png
