@@ -132,6 +132,7 @@ exclude:
   - Gemfile.lock
   - vendor
   - bak
+  - Rocky.md
 
 keep_files:
   - CNAME
