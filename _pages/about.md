@@ -23,7 +23,7 @@ I'm always open to collaboration on cutting-edge researches about robot percepti
 ---
 
 <h2>research interests</h2>
-My research interests include robotic perception, 3D computer vision, probabilistic multi-sensor fusion, visual-inertial navigation, state estimation, and dense mapping.  I'm conducting researches on integrating the intelligence of deep neural networks and the traditional probabilistic methods for robot perception tasks.
+My research interests include robotic perception, 3D computer vision, probabilistic multi-sensor fusion, visual-inertial navigation, state estimation, and dense mapping.  I'm conducting researches on integrating the intelligence of the deep neural networks and the traditional probabilistic methods for robot perception tasks.
 
 ---
 
@@ -37,5 +37,11 @@ My research interests include robotic perception, 3D computer vision, probabilis
 
 ---
 
+<h2>academic services</h2>
+<b>Journal Reviewer</b>: IEEE Transactions on Robotics (T-RO), Journal of Field Robotics (J-FR),
+Robotics and Automation Letters (RA-L), IEEE Transactions on Intelligent Transportation
+Systems (T-ITS), Sensor, Neurocomputing, Machine Vision and Applications
 
+<b>Conference Reviewer</b>: ICRA, IROS, IJCAI
 
+---

@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: I'm undertaking some teaching duties on mobile robots related courses, and supervising some student projects (Master thesis).
+description: I'm undertaking some teaching duties on courses related to mobile robots, and supervising some student projects (Master thesis).
 nav: true
 ---
 
@@ -18,6 +18,6 @@ This practical course is aligned with Mobile Robotics, following its theoretical
 
 ---
 
-### Student Project:
+### student project:
 
 Please find out some of my proposals at [projects page](https://mlr.in.tum.de/teaching/projects). It is welcome to contact me if you are interested in working with me on doing some interesting projects realted to robotic perception, SLAM, and 3D computer vision.

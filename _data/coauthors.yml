@@ -1,14 +1,14 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Pollefeys":
+  - firstname: ["Marc", "M."]
+    url: http://people.inf.ethz.ch/pomarc/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Huang":
+  - firstname: ["Guoquan", "G."]
+    url: http://udel.edu/~ghuang/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Zuo":
+  - firstname: ["Xingxing", "X."]
+    url: https://mlr.in.tum.de/members/zuox
 
 "Bach": 
   - firstname: ["Johann Sebastian", "J. S."]
