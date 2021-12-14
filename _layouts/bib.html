@@ -34,29 +34,29 @@ https://github.com/Mayankm96/Mayankm96.github.io/blob/source/_layouts/bib.html -
           
           {% if forloop.length == 1 %}
             {% if author_is_self %}
-              <em><b>{{author.last}}, {{author.first}}</b></em>
+              <em><b>{{author.first}} {{author.last}}</b></em>
             {% else %}
-              {{author.last}}, {{author.first}}
+              {{author.first}} {{author.last}}
             {% endif %}
           {% else %}
             {% unless forloop.last %}
               {% if author_is_self %}
-                <em><b>{{author.last}}, {{author.first}}</b></em>,
+                <em><b>{{author.first}} {{author.last}}</b></em>,
               {% else %}
                 {% if coauthor_url %}
-                  <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>,
+                  <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,
                 {% else %}
-                  {{author.last}}, {{author.first}},
+                  {{author.first}} {{author.last}},
                 {% endif %}
               {% endif %}
             {% else %}
               {% if author_is_self %}
-                and <em><b>{{author.last}}, {{author.first}}</b></em>
+                and <em><b>{{author.first}} {{author.last}}</b></em>
               {% else %}
                 {% if coauthor_url %}
-                  and <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>
+                  and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
                 {% else %}
-                  and {{author.last}}, {{author.first}}
+                  and {{author.first}} {{author.last}}
                 {% endif %}
               {% endif %}
             {% endunless %}

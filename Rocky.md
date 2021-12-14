@@ -5,9 +5,3 @@
   > $ bundle exec jekyll serve
   > ```
 
-- Please refer to https://github.com/yiyiliao/yiyiliao.github.io/commits/master?before=e5e91d551e314871ec9db0e085c7ea49b6e73134+35&branch=master for modifying it.
-
-https://github.com/eaplatanios/eaplatanios.github.io
-
-https://github.com/otiliastr/otiliastr.github.io
-

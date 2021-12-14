@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Postdoc reseacher in Department of Informatics in <a href="https://mlr.in.tum.de/members">Technical University of Munich</a>.
+description: Postdoc reseacher in Department of Informatics of <a href="https://www.tum.de/en">Technical University of Munich</a>.
 
 profile:
   align: right
