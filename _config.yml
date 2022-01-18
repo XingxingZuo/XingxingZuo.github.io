@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: <strong>Xingxing</strong> Zuo # the website title (if blank, full name will be used instead)
 first_name: Xingxing
 # middle_name:
 last_name: Zuo
@@ -17,7 +17,7 @@ footer_text: >
 icon: ✨
 url: https://XingxingZuo.github.io # https://alshedivat.github.io # the base hostname & protocol for your site
 baserul:  # /pagetest.github.io  /al-folio # the subpath of your site, e.g. /blog/
-last_updated: True # set to true if you want to display last updated in the footer
+last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -60,7 +60,7 @@ quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
-work_url: https://mlr.in.tum.de/members # work page URL
+work_url: # https://mlr.in.tum.de/members # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
@@ -71,7 +71,7 @@ rss_icon: false
 # contact_note: >
 #   You can even add a little note about which of these is the best way to reach you.
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: G-L6PYDPEBZZ # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
@@ -196,7 +196,7 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
+enable_google_analytics:    true  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
 enable_mansory:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
