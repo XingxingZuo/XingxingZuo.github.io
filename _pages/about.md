@@ -39,6 +39,7 @@ My research interests include robotic perception, 3D computer vision, probabilis
 
 <h2>academic services</h2>
 <b>Associate Editor</b>: IEEE Robotics and Automation Letters (RA-L), IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+
 <b>Journal Reviewer</b>: IEEE Transactions on Robotics (T-RO), Journal of Field Robotics (J-FR),
 IEEE Robotics and Automation Letters (RA-L), IEEE Transactions on Intelligent Transportation
 Systems (T-ITS), Sensor, Neurocomputing, Machine Vision and Applications
