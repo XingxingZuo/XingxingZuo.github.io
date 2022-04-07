@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Xingxing Zuo
+title: about
 permalink: /
 description: Postdoc Researcher in Department of Informatics, <a href="https://www.tum.de/en">Technical University of Munich</a>.
 
