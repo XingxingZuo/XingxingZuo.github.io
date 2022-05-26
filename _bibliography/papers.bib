@@ -1,8 +1,31 @@
 ---
 ---
 
+@article{lv2022tro,
+  title={<a name="lnk_lv2022tro">Observability-Aware Intrinsic and Extrinsic Calibration of LiDAR-IMU Systems </a>},
+  author={Lv*, Jiajun and <em><b>Zuo*</b></em>, <em><b>Xingxing</b></em> and Hu, Kewei and Xu, Jinhong and Huang, Guoquan and Liu, Yong},
+  journal={IEEE Transactions on Robotics},
+  year={2022},
+  publisher={IEEE},
+  abstract={Accurate and reliable sensor calibration is essential to fuse LiDAR and inertial measurements, which are usually available in robotic applications. In this paper, we propose a novel LiDAR-IMU calibration method within the continuous-time batch-optimization framework, where the intrinsics of both sensors and the spatial-temporal extrinsics between sensors are calibrated without using calibration infrastructure such as fiducial tags. Compared to discrete-time approaches, the continuous-time formulation has natural advantages for fusing high rate measurements from LiDAR and IMU sensors. To improve efficiency and address degenerate motions, two observability-aware modules are leveraged: (i) The information-theoretic data selection policy selects only the most informative segments for calibration during data collection, which significantly improves the calibration efficiency by processing only the selected informative segments. (ii) The observability-aware state update mechanism in nonlinear least-squares optimization updates only the identifiable directions in the state space with truncated singular value decomposition (TSVD), which enables accurate calibration results even under degenerate cases where informative data segments are not available. The proposed LiDAR-IMU calibration approach has been validated extensively in both simulated and real-world experiments with different robot platforms, demonstrating its high accuracy and repeatability in commonly-seen human-made environments.},
+  abbr={ob_aware_calib},
+  arxiv={2205.03276},
+  code={https://github.com/APRIL-ZJU/OA-LICalib}
+}
+
+@InProceedings{nate2022cvpr,
+  title={<a name="lnk_nate2022cvpr">Symmetry and Uncertainty-Aware Object SLAM for 6DoF Object Pose Estimation</a>},
+  author={Merrill, Nathaniel  and Guo, Yuliang and Zuo, Xingxing and Huang, Xinyu and Leutenegger, Stefan and Peng, Xi and Ren, Liu and Huang, Guoquan},
+  Booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2022},
+  abstract={We propose a keypoint-based object-level SLAM framework that can provide globally consistent 6DoF pose estimates for symmetric and asymmetric objects alike. To the best of our knowledge, our system is among the first to utilize the camera pose information from SLAM to provide prior knowledge for tracking keypoints on symmetric objects -- ensuring that new measurements are consistent with the current 3D scene. Moreover, our semantic keypoint network is trained to predict the Gaussian covariance for the keypoints that captures the true error of the prediction, and thus is not only useful as a weight for the residuals in the system's optimization problems, but also as a means to detect harmful statistical outliers without choosing a manual threshold. Experiments show that our method provides competitive performance to the state of the art in 6DoF object pose estimation, and at a real-time speed. Our code, pre-trained models, and keypoint labels are open-sourced.},
+  abbr={suo_slam},
+  arxiv={2205.01823},
+  code={https://github.com/rpng/suo_slam}
+}
+
 @inproceedings{zuo2021codevio,
-  title={CodeVIO: Visual-inertial odometry with learned optimizable dense depth},
+  title={<a name="lnk_codevio"> CodeVIO: Visual-inertial odometry with learned optimizable dense depth </a>},
   author={Zuo, Xingxing and Merrill, Nathaniel and Li, Wei and Liu, Yong and Pollefeys, Marc and Huang, Guoquan},
   booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
   comments={<b style="color:red;">Nominated for the "Best Paper Award in Robot Vision (Finalist) of ICRA 2021"</b>},

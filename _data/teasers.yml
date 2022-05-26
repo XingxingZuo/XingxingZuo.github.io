@@ -36,3 +36,9 @@ clins:
 
 mba_vo:
   img: teaser/mba_vo.png
+
+ob_aware_calib:
+  img: teaser/ob_aware_calib.png
+
+suo_slam:
+  img: teaser/suo_slam.png
