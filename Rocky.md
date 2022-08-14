@@ -10,3 +10,8 @@
 - Markdown emo
 
   https://github.com/ikatyang/emoji-cheat-sheet
+
+Sometimes, the deployment can not be successful, due to the version of ruby, then please tune the version in the deploy.yml file:
+
+> with:
+>         ruby-version: '3.1'
