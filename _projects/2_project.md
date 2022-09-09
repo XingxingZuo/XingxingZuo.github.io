@@ -21,6 +21,7 @@ To give your project a background in the portfolio page, just add the img tag to
     ---
 
 <div class="row">
+<!-- For image layout, refer to https://alshedivat.github.io/al-folio/projects/2_project/ -->
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
     </div>
