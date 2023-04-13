@@ -1,5 +1,28 @@
 ---
 ---
+@article{lv2023tmech,
+  title={<a name="lnk_lv2023tmech">Continuous-Time Fixed-Lag Smoothing for LiDAR-Inertial-Camera SLAM </a>},
+  author={Lv, Jiajun and Lang, Xiaolei and Xu, Jinhong and Wang, Mengmeng and Liu, Yong and <em><b>Zuo<sup>#</sup></b></em>, <em><b>Xingxing</b></em>},
+  journal={IEEE/ASME Transactions on Mechatronics},
+  year={2023},
+  publisher={IEEE},
+  abstract={Localization and mapping with heterogeneous multisensor fusion have been prevalent in recent years. To adequately fuse multimodal sensor measurements received at different time instants and different frequencies, we estimate the continuous-time trajectory by fixed-lag smoothing within a factor-graph optimization framework. With the continuous-time formulation, we can query poses at any time instants corresponding to the sensor measurements. To bound the computation complexity of the continuous-time fixed-lag smoother, we maintain temporal and keyframe sliding windows with constant size, and probabilistically marginalize out control points of the trajectory and other states, which allows preserving prior information for future sliding-window optimization. Based on continuous-time fixed-lag smoothing, we design tightly coupled multimodal SLAM algorithms with a variety of sensor combinations, like the LiDAR-inertial and LiDAR-inertial-camera SLAM systems, in which online time offset calibration is also naturally supported. More importantly, benefiting from the marginalization and our derived analytical Jacobians for optimization, the proposed continuous-time SLAM systems can achieve real-time performance regardless of the high complexity of continuous-time formulation. The proposed multimodal SLAM systems have been widely evaluated on three public datasets and self-collect datasets. The results demonstrate that the proposed continuous-time SLAM systems can achieve high-accuracy pose estimations and outperform existing state-of-the-art methods.},
+  abbr={clic},
+  arxiv={2302.07456},
+  code={https://github.com/APRIL-ZJU/clic}
+}
+
+@article{lang2022ral,
+  title={<a name="lnk_lang2022ral">Ctrl-VIO: Continuous-Time Visual-Inertial Odometry for Rolling Shutter Cameras </a>},
+  author={Lang, Xiaolei and Lv, Jiajun and Huang, Jianxin and Ma, Yukai and Liu, Yong and <em><b>Zuo<sup>#</sup></b></em>, <em><b>Xingxing</b></em>},
+  journal={ IEEE Robotics and Automation Letters},
+  year={2022},
+  publisher={IEEE},
+  abstract={In this letter, we propose a probabilistic continuous-time visual-inertial odometry (VIO) for rolling shutter cameras. The continuous-time trajectory formulation naturally facilitates the fusion of asynchronized high-frequency IMU data and motion-distorted rolling shutter images. To prevent intractable computation load, the proposed VIO is sliding-window and keyframe-based. We propose to probabilistically marginalize the control points to keep the constant number of keyframes in the sliding window. Furthermore, the line exposure time difference (line delay) of the rolling shutter camera can be online calibrated in our continuous-time VIO. To extensively examine the performance of our continuous-time VIO, experiments are conducted on publicly-available WHU-RSVI, TUM-RSVI, and SenseTime-RSVI rolling shutter datasets. The results demonstrate the proposed continuous-time VIO significantly outperforms the existing state-of-the-art VIO methods.},
+  abbr={ctrl_vio},
+  arxiv={2208.12008},
+  code={https://github.com/APRIL-ZJU/Ctrl-VIO}
+}
 
 @article{lv2022tro,
   title={<a name="lnk_lv2022tro">Observability-Aware Intrinsic and Extrinsic Calibration of LiDAR-IMU Systems </a>},

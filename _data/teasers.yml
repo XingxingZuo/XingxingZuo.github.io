@@ -42,3 +42,9 @@ ob_aware_calib:
 
 suo_slam:
   img: teaser/suo_slam.png
+
+clic:
+  img: teaser/clic.png
+
+ctrl_vio:
+  img: teaser/ctrl_vio.png

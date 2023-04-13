@@ -37,7 +37,7 @@ layout: default
     <a name="publications"><h2>selected publications</h2></a>
     <br>
     <p style="font-size:22px;"> <i> Find out my full publication list via </i> <a href='https://scholar.google.com/citations?user=CePv8agAAAAJ'>Google Scholar</a>. <br>
-    <sup>*</sup> co-first author with equal contribution. </p>  
+    <sup>*</sup> co-first author with equal contribution;  <sup>#</sup> Corresponding author.</p>  
     <!-- <sup>&#x0266F;</sup>corresponding author. -->
     {% for y in page.years %}
       {% bibliography -f papers -q @*[year={{y}}]* %}

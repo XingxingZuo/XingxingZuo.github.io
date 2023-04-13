@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Postdoc Researcher in Department of Informatics, <a href="https://www.tum.de/en">Technical University of Munich</a>.
+description: Postdoc Researcher at <a href="https://www.tum.de/en">Technical University of Munich</a>.
 
 profile:
   align: right
@@ -12,10 +12,10 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 
-years: [2022, 2021, 2020, 2019, 2018, 2017]
+years: [2023, 2022, 2021, 2020, 2019, 2018, 2017]
 ---
 
-I'm currently a Postdoc Researcher in [Smart Robotics Lab](https://mlr.in.tum.de) at the Department of Informatics, Technical University of Munich, working with [Prof. Stefan Leutenegger](https://www.professoren.tum.de/en/leutenegger-stefan). Previously, I was an academic guest (2019 - 2021) in [Computer Vision and Geometry Group](https://cvg.ethz.ch/) (CVG), ETH, Zurich, Switzerland, working with [Prof. Marc Pollefeys](http://people.inf.ethz.ch/pomarc/). I was also a visiting scholar (2018) in the [Robot Perception and Navigation Group](http://sites.udel.edu/robot) (RPNG) of [Guoquan (Paul) Huang](https://udel.edu/~ghuang/) at University of Delaware, Newark, USA, and a visiting scholar (2017) in the [UTS Robotics Institute](https://www.uts.edu.au/research/robotics-institute), University of Technology Sydney, Australia, working with [Prof. Teresa Vidal Calleja](https://profiles.uts.edu.au/Teresa.VidalCalleja). I got my doctoral degree from Department of Control Science and Engineering in [Zhejiang University](https://www.zju.edu.cn/english/), China, under the supervision of [Prof. Yong liu](https://april.zju.edu.cn/team/dr-yong-liu/),  and graduated with honors in 2021. Before that, I graduated with honors and obtained my Bachelor's degree in mechanical engineering in [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/) (UESTC), Chengdu, China, in 2016.
+I'm a Postdoc Researcher at the School of Computation, Information and Technology, <a href="https://www.tum.de/en">Technical University of Munich</a>, Germany, working with [Prof. Stefan Leutenegger](https://www.professoren.tum.de/en/leutenegger-stefan). Prior to this, I was an academic guest (2019 - 2021) in the [Computer Vision and Geometry Group](https://cvg.ethz.ch/) (CVG), at ETH  Zurich, Switzerland, working with [Prof. Marc Pollefeys](http://people.inf.ethz.ch/pomarc/). I was also a visiting scholar (2018) in the [Robot Perception and Navigation Group](http://sites.udel.edu/robot) (RPNG) of [Prof. Guoquan (Paul) Huang](https://udel.edu/~ghuang/) at University of Delaware, USA, and a visiting scholar (2017) in the [UTS Robotics Institute](https://www.uts.edu.au/research/robotics-institute), University of Technology Sydney, Australia, working with [Prof. Teresa Vidal Calleja](https://profiles.uts.edu.au/Teresa.VidalCalleja).  I received my doctoral degree in 2021, from the Department of Control Science and Engineering at [Zhejiang University](https://www.zju.edu.cn/english/), China, under the supervision of [Prof. Guoquan (Paul) Huang](https://udel.edu/~ghuang/) and [Prof. Yong liu](https://april.zju.edu.cn/team/dr-yong-liu/),  and graduated with honors. Previously, I graduated with honors and obtained my Bachelor's degree in Mechanical Engineering at [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/) (UESTC), Chengdu, China, in 2016.
 
 
 <!--  I'm open to collaborations on cutting-edge research about robotic perception and intelligence, feel free to reach out through [email](mailto:xingxing.zuo@tum.de)!  -->
@@ -71,15 +71,14 @@ My research interests include robotic perception, 3D computer vision, probabilis
 ---
 
 <h2>academic services</h2>
-<b>Associate Editor</b>: IEEE Robotics and Automation Letters (RA-L), IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), IEEE International Conference on Robotics and Automation (ICRA)
+<b>Associate Editor</b>: IEEE Robotics and Automation Letters ([RA-L](https://www.ieee-ras.org/publications/ra-l)), IEEE/RSJ International Conference on Intelligent Robots and Systems ([IROS](https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros)), IEEE International Conference on Robotics and Automation ([ICRA](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra))
 
-<b>Guest Editor</b>: Sensors
+<b>Guest Editor</b>: Sensors [[Special Issue](https://www.mdpi.com/journal/sensors/special_issues/efficient_embedded_sensing)]
 
-<b>Journal Reviewer</b>: IEEE Transactions on Robotics (T-RO), Journal of Field Robotics (J-FR),
-IEEE Robotics and Automation Letters (RA-L), IEEE Transactions on Intelligent Transportation
-Systems (T-ITS), Sensor, Neurocomputing, Machine Vision and Applications
+<b>Journal Reviewer</b>: IEEE Transactions on Robotics (T-RO), The International Journal of
+Robotics Research (IJRR), Journal of Field Robotics (J-FR), IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), IEEE Transactions on Automation Science and Engineering (T-ASE), IEEE Robotics and Automation Letters (RA-L), IEEE Transactions on Intelligent Transportation Systems (T-ITS), Neurocomputing
 
-<b>Conference Reviewer</b>: ICRA, IROS, IJCAI
+<b>Conference Reviewer</b>: ICRA, IROS, CVPR, ICCV, IJCAI
 
 ---
 
