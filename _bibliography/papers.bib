@@ -1,5 +1,28 @@
 ---
 ---
+@InProceedings{xin2023ismar,
+  title={<a name="lnk_xin2023ismar">SimpleMapping: Real-Time Visual-Inertial Dense Mapping with Deep Multi-View Stereo</a>},
+  author={Xin*, Yingye and <em><b>Zuo*<sup>#</sup></b></em>, <em><b>Xingxing</b></em>, and Lu, Dongyue and  Leutenegger, Stefan},
+  Booktitle = {IEEE International Symposium on Mixed and Augmented Reality (ISMAR)},
+  year={2023},
+  abstract={We present a real-time visual-inertial dense mapping method capable of performing incremental 3D mesh reconstruction with high quality using only sequential monocular images and inertial measurement unit (IMU) readings. 6-DoF camera poses are estimated by a robust feature-based visual-inertial odometry (VIO), which also generates noisy sparse 3D map points as a by-product. We propose a sparse point aided multi-view stereo neural network (SPA-MVSNet) that can effectively leverage the informative but noisy sparse points from the VIO system. The sparse depth from VIO is firstly completed by a single-view depth completion network. This dense depth map, although naturally limited in accuracy, is then used as a prior to guide our MVS network in the cost volume generation and regularization for accurate dense depth prediction. Predicted depth maps of keyframe images by the MVS network are incrementally fused into a global map using TSDF-Fusion. We extensively evaluate both the proposed SPA-MVSNet and the entire visual-inertial dense mapping system on several public datasets as well as our own dataset, demonstrating the system's impressive generalization capabilities and its ability to deliver high-quality 3D mesh reconstruction online. Our proposed dense mapping system achieves a 39.7% improvement in F-score over existing systems when evaluated on the challenging scenarios of the EuRoC dataset.},
+  abbr={2023simplemapping},
+  arxiv={2306.08648},
+  video={https://www.youtube.com/watch?v=R68sEMhEDNU}
+}
+
+@article{zuo2023ral,
+  title={<a name="lnk_zuo2023ral">Incremental Dense Reconstruction from Monocular Video with Guided Sparse Feature Volume Fusion </a>},
+  author={<em><b>Zuo</b></em>, <em><b>Xingxing</b></em> and Yang, Nan and  Merrill, Nathaniel and Xu, Binbin and Leutenegger, Stefan},
+  journal={ IEEE Robotics and Automation Letters},
+  year={2023},
+  publisher={IEEE},
+  abstract={Incrementally recovering 3D dense structures from monocular videos is of paramount importance since it enables various robotics and AR applications. Feature volumes have recently been shown to enable efficient and accurate incremental dense reconstruction without the need to first estimate depth, but they are not able to achieve as high of a resolution as depth-based methods due to the large memory consumption of high-resolution feature volumes. This letter proposes a real-time feature volume-based dense reconstruction method that predicts TSDF (Truncated Signed Distance Function) values from a novel sparsified deep feature volume, which is able to achieve higher resolutions than previous feature volume-based methods, and is favorable in outdoor large-scale scenarios where the majority of voxels are empty. An uncertainty-aware multi-view stereo (MVS) network is leveraged to infer initial voxel locations of the physical surface in a sparse feature volume. Then for refining the recovered 3D geometry, deep features are attentively aggregated from multi-view images at potential surface locations, and temporally fused. Besides achieving higher resolutions than before, our method is shown to produce more complete reconstructions with finer detail in many cases. Extensive evaluations on both public and self-collected datasets demonstrate a very competitive real-time reconstruction result for our method compared to state-of-the-art reconstruction methods in both indoor and outdoor settings.},
+  abbr={2023fvfusion},
+  arxiv={2305.14918},
+  video={https://www.youtube.com/watch?v=bY6zffvbSGE}
+}
+
 @article{lv2023tmech,
   title={<a name="lnk_lv2023tmech">Continuous-Time Fixed-Lag Smoothing for LiDAR-Inertial-Camera SLAM </a>},
   author={Lv, Jiajun and Lang, Xiaolei and Xu, Jinhong and Wang, Mengmeng and Liu, Yong and <em><b>Zuo<sup>#</sup></b></em>, <em><b>Xingxing</b></em>},

@@ -74,10 +74,10 @@ My research interests include perception, 3D computer vision, probabilistic mult
 <h2>academic services</h2>
 <b>Associate Editor</b>: IEEE Robotics and Automation Letters ([RA-L](https://www.ieee-ras.org/publications/ra-l)), IEEE/RSJ International Conference on Intelligent Robots and Systems ([IROS](https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros)), IEEE International Conference on Robotics and Automation ([ICRA](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra))
 
-<b>Guest Editor</b>: Sensors [[Special Issue](https://www.mdpi.com/journal/sensors/special_issues/efficient_embedded_sensing)]
+<b>Guest Editor</b>: Sensors [[Special Issue 2023](https://www.mdpi.com/journal/sensors/special_issues/efficient_embedded_sensing)]
 
 <b>Journal Reviewer</b>: IEEE Transactions on Robotics (T-RO), The International Journal of
-Robotics Research (IJRR), Journal of Field Robotics (J-FR), IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), IEEE Transactions on Automation Science and Engineering (T-ASE), IEEE Robotics and Automation Letters (RA-L), IEEE Transactions on Intelligent Transportation Systems (T-ITS), Neurocomputing
+Robotics Research (IJRR), Journal of Field Robotics (J-FR), IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), IEEE Transactions on Automation Science and Engineering (T-ASE), IEEE Robotics and Automation Letters (RA-L), IEEE Transactions on Intelligent Transportation Systems (T-ITS), IEEE Transactions on Industrial Electronics (T-IE), Neurocomputing
 
 <b>Conference Reviewer</b>: ICRA, IROS, CVPR, ICCV, IJCAI
 
