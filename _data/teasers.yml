@@ -20,7 +20,7 @@ jfr_multimodal:
   img: teaser/jfr_multimodal.png
 
 lic1:
-  img: teaser/lic1_overview.png
+  img: teaser/lic1_overview_b.gif
 
 icr:
   img: teaser/icr.png
@@ -49,8 +49,11 @@ clic:
 ctrl_vio:
   img: teaser/ctrl_vio.png
 
+2023fvfusion:
+  img: teaser/2023fvfusion.png
+
 2023simplemapping:
   img: teaser/2023simplemapping.gif
 
-2023fvfusion:
-  img: teaser/2023fvfusion.png
+2023cocolic:
+  img: teaser/2023cocolic_b.gif

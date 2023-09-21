@@ -1,5 +1,17 @@
 ---
 ---
+@article{zuo2023ral,
+  title={<a name="lnk_lang2023ral"> Coco-LIC: Continuous-Time Tightly-Coupled LiDAR-Inertial-Camera Odometry using Non-Uniform B-spline </a>},
+  author={ Lang, Xiaolei and Chen, Chao and Tang, Kai and Ma, Yukai and Lv, Jiajun and Liu, Yong and <em><b>Zuo<sup>#</sup></b></em>, <em><b>Xingxing</b></em>},
+  journal={ IEEE Robotics and Automation Letters},
+  year={2023},
+  publisher={IEEE},
+  abstract={In this paper, we propose an efficient continuous-time LiDAR-Inertial-Camera Odometry, utilizing non-uniform B-splines to tightly couple measurements from the LiDAR, IMU, and camera. In contrast to uniform B-spline-based continuous-time methods, our non-uniform B-spline approach offers significant advantages in terms of achieving real-time efficiency and high accuracy. This is accomplished by dynamically and adaptively placing control points, taking into account the varying dynamics of the motion. To enable efficient fusion of heterogeneous LiDAR-Inertial-Camera data within a short sliding-window optimization, we assign depth to visual pixels using corresponding map points from a global LiDAR map, and formulate frame-to-map reprojection factors for the associated pixels in the current image frame. This way circumvents the necessity for depth optimization of visual pixels, which typically entails a lengthy sliding window with numerous control points for continuous-time trajectory estimation. We conduct dedicated experiments on real-world datasets to demonstrate the advantage and efficacy of adopting non-uniform continuous-time trajectory representation. Our LiDAR-Inertial-Camera odometry system is also extensively evaluated on both challenging scenarios with sensor degenerations and large-scale scenarios, and has shown comparable or higher accuracy than the state-of-the-art methods.},
+  abbr={2023cocolic},
+  arxiv={2309.09808},
+  code={https://github.com/APRIL-ZJU/Coco-LIC}
+}
+
 @InProceedings{xin2023ismar,
   title={<a name="lnk_xin2023ismar">SimpleMapping: Real-Time Visual-Inertial Dense Mapping with Deep Multi-View Stereo</a>},
   author={Xin*, Yingye and <em><b>Zuo*<sup>#</sup></b></em>, <em><b>Xingxing</b></em>, and Lu, Dongyue and  Leutenegger, Stefan},
@@ -8,7 +20,8 @@
   abstract={We present a real-time visual-inertial dense mapping method capable of performing incremental 3D mesh reconstruction with high quality using only sequential monocular images and inertial measurement unit (IMU) readings. 6-DoF camera poses are estimated by a robust feature-based visual-inertial odometry (VIO), which also generates noisy sparse 3D map points as a by-product. We propose a sparse point aided multi-view stereo neural network (SPA-MVSNet) that can effectively leverage the informative but noisy sparse points from the VIO system. The sparse depth from VIO is firstly completed by a single-view depth completion network. This dense depth map, although naturally limited in accuracy, is then used as a prior to guide our MVS network in the cost volume generation and regularization for accurate dense depth prediction. Predicted depth maps of keyframe images by the MVS network are incrementally fused into a global map using TSDF-Fusion. We extensively evaluate both the proposed SPA-MVSNet and the entire visual-inertial dense mapping system on several public datasets as well as our own dataset, demonstrating the system's impressive generalization capabilities and its ability to deliver high-quality 3D mesh reconstruction online. Our proposed dense mapping system achieves a 39.7% improvement in F-score over existing systems when evaluated on the challenging scenarios of the EuRoC dataset.},
   abbr={2023simplemapping},
   arxiv={2306.08648},
-  video={https://www.youtube.com/watch?v=R68sEMhEDNU}
+  video={https://www.youtube.com/watch?v=R68sEMhEDNU},
+  webpage={https://yingyexin.github.io/simplemapping.html}
 }
 
 @article{zuo2023ral,
