@@ -72,14 +72,27 @@ My research interests include robotics perception, 3D computer vision, probabili
 ---
 
 <h2>academic services</h2>
-<b>Associate Editor</b>: IEEE Robotics and Automation Letters ([RA-L](https://www.ieee-ras.org/publications/ra-l)), IEEE/RSJ International Conference on Intelligent Robots and Systems ([IROS](https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros)), IEEE International Conference on Robotics and Automation ([ICRA](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra))
+<b>Associate Editor</b>: IEEE Robotics and Automation Letters ([RA-L](https://www.ieee-ras.org/publications/ra-l)), IEEE/RSJ International Conference on Intelligent Robots and Systems ([IROS](https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros)), IEEE International Conference on Robotics and Automation ([ICRA](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra)).
 
-<b>Guest Editor</b>: Sensors [[Special Issue 2023](https://www.mdpi.com/journal/sensors/special_issues/efficient_embedded_sensing)]
+<b>Conference Session Chair</b>: IROS 2023.
+
+<b>Guest Editor</b>: Sensors [[Special Issue 2023](https://www.mdpi.com/journal/sensors/special_issues/efficient_embedded_sensing)].
 
 <b>Journal Reviewer</b>: IEEE Transactions on Robotics (T-RO), The International Journal of
-Robotics Research (IJRR), Journal of Field Robotics (J-FR), IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), IEEE Transactions on Automation Science and Engineering (T-ASE), IEEE Robotics and Automation Letters (RA-L), IEEE Transactions on Intelligent Transportation Systems (T-ITS), IEEE Transactions on Industrial Electronics (T-IE), Neurocomputing
+Robotics Research (IJRR), Journal of Field Robotics (J-FR), IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI), IEEE Transactions on Automation Science and Engineering (T-ASE), IEEE Robotics and Automation Letters (RA-L), IEEE Transactions on Intelligent Transportation Systems (T-ITS), IEEE Transactions on Industrial Electronics (T-IE), Neurocomputing.
 
 <b>Conference Reviewer</b>: ICRA, IROS, CVPR, ICCV, IJCAI
 
 ---
 
+<h2>representative talks</h2>
+- 2023.08 "Towards the Era of Robust 3D Perception". The Chinese University of Hong Kong (ShenZhen).
+- 2023.05 "Towards the Era of Robust 3D Perception for Mobile Robots". Upenn Grasp Lab.
+- 2022.06 "Robut 3D Perception with Multi-source Information Fusion". ETH CVG group.
+- 2022.03 Invited speaker at conference, "Towards the Era of Robust Pose Estimation for Robots". UPLINLIBS 2022.
+- 2022.03 "Towards the Era of Robust Spatial Perception". Peking University.
+
+
+
+
+---
