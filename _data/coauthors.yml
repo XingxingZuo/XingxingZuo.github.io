@@ -6,13 +6,16 @@
   - firstname: ["Guoquan", "G."]
     url: http://udel.edu/~ghuang/
 
+  - firstname: ["Shengyu"]
+    url: https://shengyuh.github.io/
+
 "Li":
   - firstname: ["Mingyang"]
     url: https://scholar.google.com/citations?user=DK-ls48AAAAJ&hl=en
 
 "Leutenegger":
   - firstname: ["Stefan"]
-    url: https://www.professoren.tum.de/en/leutenegger-stefan
+    url: https://www.professoren.tum.de/en/leutenegger-stefan   
 
 "Bach": 
   - firstname: ["Johann Sebastian", "J. S."]

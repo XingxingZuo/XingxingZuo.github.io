@@ -69,7 +69,7 @@ https://github.com/Mayankm96/Mayankm96.github.io/blob/source/_layouts/bib.html -
         <em>{{entry.journal}}</em>
       {% elsif entry.type == "inproceedings" %}
         <em>{{entry.comments}}</em>
-        <br>
+        <!-- <br> -->
         <em>{{entry.booktitle}}</em>
       {% elsif entry.type == "workshop" %}
         <em>{{entry.booktitle}}</em>
@@ -103,7 +103,7 @@ https://github.com/Mayankm96/Mayankm96.github.io/blob/source/_layouts/bib.html -
       [<a href="{{ entry.webpage }}" target="_blank">Webpage</a>]
     {% endif %}
     {% if entry.html %}
-      [<a href="{{ entry.html }}" target="_blank">Website</a>]
+      [<a href="{{ entry.html }}" target="_blank">Webpage</a>]
     {% endif %}
     {% if entry.pdf %}
       [<a href="{{ entry.pdf | prepend: '/assets/documents/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">PDF</a>]

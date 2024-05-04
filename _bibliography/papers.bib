@@ -1,5 +1,30 @@
 ---
 ---
+@InProceedings{wu2024cvpr,
+  title={<a name="lnk_wu2024cvpr">Dynamic LiDAR Re-simulation using Compositional Neural Fields</a>},
+  author={Wu, Hanfeng and <em><b>Zuo<sup>#</sup></b></em> , <em><b>Xingxing</b></em>  and Leutenegger, Stefan and Litany, Or and  Schindle, Konrad and Huang<sup>#</sup>, Shengyu},
+  Booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), <b>Highlight</b>, },
+  year={2024},
+  abstract={We introduce DyNFL, a novel neural field-based approach for high-fidelity re-simulation of LiDAR scans in dynamic driving scenes. DyNFL processes LiDAR measurements from dynamic environments, accompanied by bounding boxes of moving objects, to construct an editable neural field. This field, comprising separately reconstructed static backgrounds and dynamic objects, allows users to modify viewpoints, adjust object positions, and seamlessly add or remove objects in the re-simulated scene. A key innovation of our method is the neural field composition technique, which effectively integrates reconstructed neural assets from various scenes through a ray drop test, accounting for occlusions and transparent surfaces. Our evaluation with both synthetic and real-world environments demonstrates that DyNFL substantial improves dynamic scene simulation based on LiDAR scans, offering a combination of physical fidelity and flexible editing capabilities.},
+  abbr={2024dynfl},
+  arxiv={2312.05247},
+  video={https://shengyuh.github.io/dynfl/assets/Main_videos.m4v},
+  webpage={https://shengyuh.github.io/dynfl},
+  code={https://github.com/prs-eth/Dynamic-LiDAR-Resimulation}
+}
+
+@InProceedings{li2024icra,
+  title={<a name="lnk_li2024icra">Dynamic LiDAR Re-simulation using Compositional Neural Fields</a>},
+  author={Li, Han and Ma, Yukai and Gu, Yaqing and Hu, Kewei and Liu<sup>#</sup>, Yong and <em><b>Zuo<sup>#</sup></b></em> , <em><b>Xingxing</b></em>},
+  Booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2024},
+  abstract={We present a novel approach for metric dense depth estimation based on the fusion of a single-view image and a sparse, noisy Radar point cloud. The direct fusion of heterogeneous Radar and image data, or their encodings, tends to yield dense depth maps with significant artifacts, blurred boundaries, and suboptimal accuracy. To circumvent this issue, we learn to augment versatile and robust monocular depth prediction with the dense metric scale induced from sparse and noisy Radar data. We propose a Radar-Camera framework for highly accurate and fine-detailed dense depth estimation with four stages, including monocular depth prediction, global scale alignment of monocular depth with sparse Radar points, quasi-dense scale estimation through learning the association between Radar points and image patches, and local scale refinement of dense depth using a scale map learner. Our proposed method significantly outperforms the state-of-the-art Radar-Camera depth estimation methods by reducing the mean absolute error (MAE) of depth estimation by 25.6% and 40.2% on the challenging nuScenes dataset and our self-collected ZJU-4DRadarCam dataset, respectively.},
+  abbr={2024radarcam_depth},
+  arxiv={2401.04325},
+  video={https://youtu.be/JDn0Sua5d9o},
+  code={https://github.com/MMOCKING/RadarCam-Depth}
+}
+
 @article{zuo2023ral,
   title={<a name="lnk_lang2023ral"> Coco-LIC: Continuous-Time Tightly-Coupled LiDAR-Inertial-Camera Odometry using Non-Uniform B-spline </a>},
   author={ Lang, Xiaolei and Chen, Chao and Tang, Kai and Ma, Yukai and Lv, Jiajun and Liu<sup>#</sup>, Yong and <em><b>Zuo<sup>#</sup></b></em>, <em><b>Xingxing</b></em>},
@@ -88,7 +113,7 @@
   title={<a name="lnk_codevio"> CodeVIO: Visual-inertial odometry with learned optimizable dense depth </a>},
   author={<em><b>Zuo*</b></em>, <em><b>Xingxing</b></em>, and Merrill*, Nathaniel and Li, Wei and Liu, Yong and Pollefeys, Marc and Huang, Guoquan},
   booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
-  comments={<b style="color:red;">Nominated for the "Best Paper Award in Robot Vision (Finalist) of ICRA 2021"</b>},
+  comments={<b style="color:red;">Nominated for the "Best Paper Award in Robot Vision (Finalist) of ICRA 2021", </b>},
   pages={14382--14388},
   year={2021},
   organization={IEEE},

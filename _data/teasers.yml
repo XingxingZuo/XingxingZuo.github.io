@@ -1,5 +1,5 @@
 mapreuse:
-  img: teaser/mapreuse.png
+  img: teaser/mapreuse1.webp
 
 codevio:
   img: teaser/codevio_overview.png
@@ -57,3 +57,10 @@ ctrl_vio:
 
 2023cocolic:
   img: teaser/2023cocolic_b.gif
+
+2024radarcam_depth:
+  img: teaser/2024radarcam_depth.png
+
+2024dynfl:
+  img: teaser/2024dynfl.png
+
