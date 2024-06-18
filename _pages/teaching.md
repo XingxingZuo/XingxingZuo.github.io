@@ -9,9 +9,9 @@ nav: true
 
 **Supervised students**
 
--	Peilun Guo (M.Sc, TUM), 2023.06 – Present.
--	Jens Naumann (M.Sc, TUM), 2023.04 – Present.
--	Juan Galvis (M.Sc, TUM), 2023.04 – Present.
+-	Peilun Guo (M.Sc, TUM), 2023.06 – 2023.01.
+-	Juan Galvis (M.Sc, TUM), 2023.04 – 2023.01.
+-	Jens Naumann (M.Sc, TUM), 2023.04 – 2023.12.
 -	Hanfeng Wu (M.Sc, TUM), 2023.04 – 2023.11.  
 -	Yixin Mai (M.Sc, TUM), 2023.02 – 2023.11. 
 -	Chuanlong Zang (M.Sc, TUM), 2023.02 – 2023.10. 
