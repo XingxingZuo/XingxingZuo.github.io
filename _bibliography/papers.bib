@@ -1,5 +1,33 @@
 ---
 ---
+@InProceedings{zuo2024ijcv,
+  title={<a name="lnk_zuo2024ijcv">FMGS: Foundation Model Embedded 3D Gaussian
+Splatting for Holistic 3D Scene Understanding</a>},
+  author={Zuo, Xingxing and Samangouei, Pouya and Zhou, Yunwen and Di, Yan and Li, Mingyang},
+  Booktitle = {International Journal of Computer Vision (IJCV)},
+  year={2024},
+  abstract={Precisely perceiving the geometric and semantic properties of real-world 3D objects is crucial for the continued evolution of augmented reality and robotic applications. To this end, we present Foundation Model Embedded Gaussian Splatting (FMGS), which incorporates vision-language embeddings of foundation models into 3D Gaussian Splatting (GS).The key contribution of this work is an efficient method to reconstruct and represent 3D vision-language models. This is achieved by distilling feature maps generated from image-based foundation models into those rendered from our 3D model. To ensure high-quality rendering and fast training, we introduce a novel scene representation by integrating strengths from both GS and multi-resolution hash encodings (MHE). Our effective training procedure also introduces a pixel alignment loss that makes the rendered feature distance of same semantic entities close, following the pixel-level semantic boundaries. Our results demonstrate remarkable multi-view semantic consistency, facilitating diverse downstream tasks, beating state-of-the-art methods by 10.2 percent on open-vocabulary language-based object detection, despite that we are 851X faster for inference. This research explores the intersection of vision, language, and 3D scene representation, paving the way for enhanced scene understanding in uncontrolled real-world environments. },
+  abbr={2024fmgs},
+  arxiv={2401.01970},
+  webpage={https://xingxingzuo.github.io/fmgs}
+}
+
+, Xingxing Zuo
+
+@InProceedings{jens2024ral,
+  title={<a name="lnk_jens2024ral">NeRF-VO: Real-Time Sparse Visual Odometry With Neural Radiance Fields</a>},
+  author={Naumann, Jens and Xu, Binbin and  Leutenegger, Stefan and <em><b>Zuo<sup>#</sup></b></em> , <em><b>Xingxing</b></em>},
+  Booktitle = {IEEE Robotics and Automation Letters (RA-L)},
+  year={2024},
+  abstract={We introduce a novel monocular visual odometry (VO) system, NeRF-VO, that integrates learning-based sparse visual odometry for low-latency camera tracking and a neural radiance scene representation for fine-detailed dense reconstruction and novel view synthesis. Our system initializes camera poses using sparse visual odometry and obtains view-dependent dense geometry priors from a monocular prediction network. We harmonize the scale of poses and dense geometry, treating them as supervisory cues to train a neural implicit scene representation. NeRF-VO demonstrates exceptional performance in both photometric and geometric fidelity of the scene representation by jointly optimizing a sliding window of keyframed poses and the underlying dense geometry, which is accomplished through training the radiance field with volume rendering. We surpass SOTA methods in pose estimation accuracy, novel view synthesis fidelity, and dense reconstruction quality across a variety of synthetic and real-world datasets while achieving a higher camera tracking frequency and consuming less GPU memory.},
+  abbr={2024nerfvo},
+  arxiv={2312.13471},
+  video={https://www.youtube.com/watch?v=El3-hSnuOz0},
+  webpage={https://xingxingzuo.github.io/nerfvo/},
+  code={https://github.com/jens-nau/NeRF-VO}
+}
+
+
 @InProceedings{wu2024cvpr,
   title={<a name="lnk_wu2024cvpr">Dynamic LiDAR Re-simulation using Compositional Neural Fields</a>},
   author={Wu, Hanfeng and <em><b>Zuo<sup>#</sup></b></em> , <em><b>Xingxing</b></em>  and Leutenegger, Stefan and Litany, Or and  Schindle, Konrad and Huang<sup>#</sup>, Shengyu},
