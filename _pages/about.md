@@ -45,7 +45,7 @@ I'm conducting research on integrating the intelligence of the deep neural netwo
 ---
 
 <h2>academic services</h2>
-<b>Associate Editor</b>: IEEE Robotics and Automation Letters ([RA-L](https://www.ieee-ras.org/publications/ra-l), since March 2022), IEEE/RSJ International Conference on Intelligent Robots and Systems ([IROS](https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros), 2022&2023&2024), IEEE International Conference on Robotics and Automation ([ICRA](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra), 2023&2024).
+<b>Associate Editor</b>: IEEE Robotics and Automation Letters ([RA-L](https://www.ieee-ras.org/publications/ra-l), since March 2022), IEEE/RSJ International Conference on Intelligent Robots and Systems ([IROS](https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros), 2022&2023&2024), IEEE International Conference on Robotics and Automation ([ICRA](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra), 2023&2024&2025).
 
 <b>Conference Session Chair</b>: IROS 2023.
 
