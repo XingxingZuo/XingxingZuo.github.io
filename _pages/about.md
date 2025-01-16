@@ -59,9 +59,10 @@ Robotics Research (IJRR), Journal of Field Robotics (J-FR), IEEE Transactions on
 ---
 
 <h2>representative talks</h2>
-- 2023.08 "Towards the Era of Robust 3D Perception". The Chinese University of Hong Kong (ShenZhen).
-- 2023.05 "Towards the Era of Robust 3D Perception for Mobile Robots". Upenn Grasp Lab.
-- 2022.06 "Robut 3D Perception with Multi-source Information Fusion". ETH CVG group.
+- 2025.01 A talk about "Robust 3D Perception". MIT (Boston).
+- 2023.08 A talk about "Robust 3D Perception". The Chinese University of Hong Kong (ShenZhen).
+- 2023.05 A talk about "Robust 3D Perception". Upenn Grasp Lab.
+- 2022.06 "Robust 3D Perception with Multi-source Information Fusion". ETH CVG group.
 - 2022.03 Invited speaker at conference, "Towards the Era of Robust Pose Estimation for Robots". UPLINLIBS 2022.
 - 2022.03 "Towards the Era of Robust Spatial Perception". Peking University.
 
