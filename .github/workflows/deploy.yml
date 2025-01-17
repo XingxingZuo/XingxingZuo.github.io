@@ -19,7 +19,8 @@ jobs:
     - name: Setup Ruby
       uses: actions/setup-ruby@v1
       with:
-        ruby-version: '3.4.1'
+        ruby-version: "3.3.5"
+        bundler-cache: true
     - name: Enable bundler cache
       uses: actions/cache@v2
       with:

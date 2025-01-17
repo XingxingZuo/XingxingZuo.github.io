@@ -15,3 +15,5 @@ Sometimes, the deployment can not be successful, due to the version of ruby, the
 
 > with:
 >         ruby-version: '3.1'
+
+The Ruby version can be checked here: https://github.com/alshedivat/al-folio/blob/main/.github/workflows/deploy.yml
