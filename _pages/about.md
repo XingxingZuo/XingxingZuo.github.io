@@ -28,7 +28,7 @@ I'm a Postdoctoral Research Associate at the Department of Computing + Mathemati
 ---
 
 <h2>research interests</h2>
-My research interests include robotics perception, 3D computer vision,  multi-sensor fusion, state estimation, and foundation models.  
+My research interests include robotics perception, 3D computer vision,  multi-sensor fusion, state estimation, and embodied AI.  
 
 I'm conducting research on integrating the intelligence of the deep neural networks and the traditional probabilistic methods for real-time robotic perception tasks.
 
@@ -46,6 +46,10 @@ I'm conducting research on integrating the intelligence of the deep neural netwo
 
 <h2>academic services</h2>
 <b>Associate Editor</b>: IEEE Robotics and Automation Letters ([RA-L](https://www.ieee-ras.org/publications/ra-l), since March 2022), IEEE/RSJ International Conference on Intelligent Robots and Systems ([IROS](https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros), 2022&2023&2024), IEEE International Conference on Robotics and Automation ([ICRA](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra), 2023&2024&2025).
+
+<b>Workshop Organizer</b>:  [Thermal Infrared in Robotics](https://sites.google.com/view/tiro25/) in ICRA 2025.
+
+<b>Program Committee Member</b>:  [IEEE MOST 2025](https://ieeemobility.org/MOST2025/).
 
 <b>Conference Session Chair</b>: IROS 2023.
 
