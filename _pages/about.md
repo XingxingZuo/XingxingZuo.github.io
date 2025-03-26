@@ -17,8 +17,6 @@ years: [2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017]
 
 I'm a Postdoctoral Research Associate at the Department of Computing + Mathematical Sciences, <a href="https://www.cms.caltech.edu/"> Caltech</a> since January, 2024, working with [Prof. Soon-Jo Chung](https://www.eas.caltech.edu/people/sjchung). Prior to this, I worked at Google in USA as a full-time visiting faculty researcher (Scientist) in 2023. I was an Postdoc Researcher (2021 - 2023) at  <a href="https://www.tum.de/en">Technical University of Munich</a>, Germany, working with [Prof. Stefan Leutenegger](https://www.professoren.tum.de/en/leutenegger-stefan).  I was an academic guest (2019 - 2021) in the [Computer Vision and Geometry Group](https://cvg.ethz.ch/) (CVG), at ETH  Zurich, Switzerland, working with [Prof. Marc Pollefeys](http://people.inf.ethz.ch/pomarc/). I was also a visiting scholar (2018) in the [Robot Perception and Navigation Group](http://sites.udel.edu/robot) (RPNG) of [Prof. Guoquan (Paul) Huang](https://udel.edu/~ghuang/) at University of Delaware, USA, and a visiting scholar (2017) in the [UTS Robotics Institute](https://www.uts.edu.au/research/robotics-institute), University of Technology Sydney, Australia, working with [Prof. Teresa Vidal Calleja](https://profiles.uts.edu.au/Teresa.VidalCalleja). I received my doctoral degree in 2021, from the Department of Control Science and Engineering at [Zhejiang University](https://www.zju.edu.cn/english/), China, under the co-supervision of [Prof. Guoquan (Paul) Huang](https://udel.edu/~ghuang/) and [Prof. Yong liu](https://april.zju.edu.cn/team/dr-yong-liu/),  and graduated with honors. Previously, I graduated with honors and obtained my Bachelor's degree in Mechanical Engineering at [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/) (UESTC), Chengdu, China, in 2016.
 
-**I'm on the faculty job market now.** If you know of any good open positions, I would appreciate it if you could reach out to me via [email](mailto:zuox@caltech.edu)!
-
 <div class="row  align-items-center">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid " src="{{ '/assets/img/affiliations/compound.png' | relative_url }}" alt="" title="example image"/>
@@ -63,6 +61,8 @@ Robotics Research (IJRR), Journal of Field Robotics (J-FR), IEEE Transactions on
 ---
 
 <h2>representative talks</h2>
+- 2025.03 A talk about "Spatial Intelligent Robots". Virginia Tech (Blacksburg).
+- 2025.03 A talk about "Spatial Intelligent Robots". KAUST (Saudi Arabia).
 - 2025.01 A talk about "Robust 3D Perception". MIT (Boston).
 - 2023.08 A talk about "Robust 3D Perception". The Chinese University of Hong Kong (ShenZhen).
 - 2023.05 A talk about "Robust 3D Perception". Upenn Grasp Lab.
