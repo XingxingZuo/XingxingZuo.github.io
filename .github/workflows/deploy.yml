@@ -14,8 +14,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+    - name: Checkout 🛎️
+        uses: actions/checkout@v4
     - name: Setup Ruby 💎
       uses: ruby/setup-ruby@v1
       with:
