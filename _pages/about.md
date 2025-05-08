@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Postdoc Research Associate at <a href="https://www.caltech.edu/"> Caltech</a>.
+description: Assistant Professor at <a href="https://mbzuai.ac.ae/"> MBZUAI</a>.
 
 profile:
   align: right
@@ -28,7 +28,7 @@ I am **hiring** highly motivated PhD students, research assistants, and visiting
 ---
 
 <h2>research interests</h2>
-My research interests include robotics perception, 3D computer vision,  multi-sensor fusion, state estimation, and embodied AI.  
+My research interests include Robotics, 3D computer vision, state estimation, and embodied AI.  
 
 I'm conducting research on integrating the intelligence of the deep neural networks and the traditional probabilistic methods for real-time robotic perception tasks.
 
