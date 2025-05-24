@@ -15,7 +15,7 @@ social: true  # includes social icons at the bottom of the page
 years: [2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017]
 ---
 
-I'm an Assistant Professor (tenure-track) in the Robotics Department at [MBZUAI](https://mbzuai.ac.ae/). Prior to this, I was a Postdoc in the Department of Computing and Mathematical Sciences at [Caltech](https://www.cms.caltech.edu/). In 2023, I worked as a full-time Visiting Faculty Researcher (Scientist) at Google in the United States. From 2021 to 2023, I was a Postdoctoral Researcher at the [Technical University of Munich](https://www.tum.de/en) in Germany. Between 2019 and 2021, I was an academic guest in the Department of Computer Science at ETH Zurich in Switzerland. I also held visiting scholar positions at the University of Delaware, USA (2018), and the University of Technology Sydney, Australia (2017). I received my Ph.D. in 2021 from [Zhejiang University](https://www.zju.edu.cn/english/) in China, graduating with honors. I earned my Bachelor's degree also with honors, from the [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/) (UESTC), Chengdu, China, in 2016.
+I'm an Assistant Professor (tenure-track) in the Robotics Department at [MBZUAI](https://mbzuai.ac.ae/). Prior to this, I was a Postdoc in the Department of Computing and Mathematical Sciences at [Caltech](https://www.cms.caltech.edu/). In 2023, I worked as a full-time Visiting Faculty Researcher (Scientist) at Google in the United States. From 2021 to 2023, I was a Postdoctoral Researcher at the [Technical University of Munich](https://www.tum.de/en) in Germany. Between 2019 and 2021, I was an academic guest in the Department of Computer Science at [ETH Zurich](https://ethz.ch/en.html) in Switzerland. I also held visiting scholar positions at the [University of Delaware](https://www.udel.edu/), USA (2018), and the [University of Technology Sydney](https://www.uts.edu.au/), Australia (2017). I received my Ph.D. in 2021 from [Zhejiang University](https://www.zju.edu.cn/english/) in China, graduating with honors. I earned my Bachelor's degree also with honors, from the [University of Electronic Science and Technology of China](https://en.uestc.edu.cn/) (UESTC), Chengdu, China, in 2016.
 
 
 I am **hiring** highly motivated PhD students, research assistants, and visiting graduate students. Please check this [page](assets/pdf/hiring2025_En.pdf) (or [Chinese version](https://zhuanlan.zhihu.com/p/1890568428944867704)) for more details! For application, please send an email to me via [xingxingzuo[at]outlook.com](mailto:xingxingzuo@outlook.com) with the subject "[Position]+[Name]+[Affiliation]"!
@@ -31,7 +31,7 @@ I am **hiring** highly motivated PhD students, research assistants, and visiting
 <h2>research interests</h2>
 My research interests include Robotics, 3D computer vision, state estimation, and embodied AI.  
 
-I'm conducting research on integrating the intelligence of the deep neural networks and the traditional probabilistic methods for real-time robotic perception tasks.
+My long-term research vision is to enable natural interaction and seamless collaboration between robots and humans in open environments by accurately understanding robot states, surrounding 3D scenes, and action execution.
 
 ---
 
