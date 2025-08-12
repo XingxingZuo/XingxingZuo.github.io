@@ -1,6 +1,6 @@
-## Xingxing Zuo
+## Prof. Xingxing Zuo
 
-**Research Interests:** Robotics, 3D computer vision, state estimation, and embodied AI.
+We conduct cutting-edge research on robust spatial intelligence for mobile robots to advance **open-world autonomy**.
 
-My long-term research vision is to enable natural interaction and seamless collaboration between robots and humans in open environments by accurately understanding robot states, surrounding 3D scenes, and action execution.
+Our long-term research vision is to enable natural interaction and seamless collaboration between robots and humans in open environments through precise understanding of robot states, surrounding 3D scenes, and action execution.
 

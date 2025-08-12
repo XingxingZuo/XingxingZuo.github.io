@@ -2,13 +2,13 @@
 layout: profiles
 permalink: /people/
 title: people
-description: Members of our Robot Cognition and Learning (RCL) group
+description: Members of our Robotics Cognition and Learning (RCL) group at MBZUAI
 nav: true
 nav_order: 3
 
 profiles:
   - align: right
-    image: people/xingxingzuo.jpg
+    image: people/xingxingzuo_profile.jpg
     content: pi_xingxingzuo.md
     image_circular: false
     more_info: >
