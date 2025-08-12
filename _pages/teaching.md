@@ -8,7 +8,7 @@ nav: true
 ---
 
 ### Teaching at MBZUAI 
-I will teach the core courses at MBZUAI during the Spring semester for "ROB703: Robot Localization and Navigation" and "ROB804: Vision for Autonomous Robotics".
+I will teach some core Robotics courses at MBZUAI during the Spring semester, including "ROB703: Robot Localization and Navigation" and "ROB804: Vision for Autonomous Robotics".
 
 
 ---
