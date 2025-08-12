@@ -1,4 +1,4 @@
-## Yuantaizhang
+## Yuantai Zhang
 
 **Research Interests:** Multi-sensor Fusion, SLAM, Robotics Navigation
 
