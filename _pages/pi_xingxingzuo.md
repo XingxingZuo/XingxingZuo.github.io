@@ -1,4 +1,4 @@
-## Prof. Xingxing Zuo
+### Prof. Xingxing Zuo
 
 We conduct cutting-edge research on robust spatial intelligence for mobile robots to advance **open-world autonomy**.
 

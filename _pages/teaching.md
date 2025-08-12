@@ -2,26 +2,17 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: I undertook some teaching duties on courses related to mobile robots, and has supervised many  student projects for their Master or Semester thesis projects.
+description: I undertake some teaching duties on courses related to Robotics.
 nav: true
 
 ---
 
-**Supervised students**
+### Teaching at MBZUAI 
+I will teach the core courses at MBZUAI during the Spring semester for "ROB703: Robot Localization and Navigation" and "ROB804: Vision for Autonomous Robotics".
 
--	Peilun Guo (M.Sc, TUM), 2023.06 – 2023.01.
--	Juan Galvis (M.Sc, TUM), 2023.04 – 2023.01.
--	Jens Naumann (M.Sc, TUM), 2023.04 – 2023.12.
--	Hanfeng Wu (M.Sc, TUM), 2023.04 – 2023.11.  
--	Yixin Mai (M.Sc, TUM), 2023.02 – 2023.11. 
--	Chuanlong Zang (M.Sc, TUM), 2023.02 – 2023.10. 
--	Yining Ma (M.Sc, TUM), 2022.10 – 2023.04. 
--	Yingye Xin (M.Sc, TUM), 2022.10 – 2023.11. 
--	Dongyue Lu (M.Sc, TUM), 2022.09 – 2023.05. 
--	Zhijie Ye (M.Sc, TUM), 2021.12 – 2022.08. 
--	Jingyuan Ma (M.Sc, ETH), 2020.02 – 2020.08. 
 
 ---
+### Teaching before Joining MBZUAI 
 
 **Lecturer** for [Seminar: Multi-Modal Perception for Mobile Robotics](https://mlr.in.tum.de/teaching/w22/seminar_mmpmr) (IN, WinSem 2022-2023, IN2107/IN4461, TUM)
 
