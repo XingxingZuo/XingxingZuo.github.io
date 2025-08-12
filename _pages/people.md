@@ -18,7 +18,7 @@ profiles:
       website: https://xingxingzuo.github.io/
       scholar_userid: CePv8agAAAAJ
       github_username: ZuoJiaxing
-      linkedin_username: https://www.linkedin.com/in/xingxingzuo/
+      linkedin_username: xingxingzuo
   
   - align: right
     image: people/huajianzeng.png
@@ -31,7 +31,7 @@ profiles:
       website: https://zenghjian.github.io/
       scholar_userid: RN6p8AEAAAAJ
       github_username: zenghjian
-      linkedin_username: https://www.linkedin.com/in/huajian-zeng-7282b8214/
+      linkedin_username: huajian-zeng-7282b8214
   
   - align: right
     image: people/yuantaizhang.jpg
@@ -42,7 +42,7 @@ profiles:
     social:
       email: yuantai.zhang@mbzuai.ac.ae
       scholar_userid: Lh2CthAAAAAJ
-      linkedin_username: https://www.linkedin.com/in/yuantai-zhang-23ba03342/?originalSubdomain=cn
+      linkedin_username: yuantai-zhang-23ba03342
 
   - align: right
     image: people/jingweihuang.jpg
