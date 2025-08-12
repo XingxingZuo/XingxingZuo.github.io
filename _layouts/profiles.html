@@ -1,0 +1,49 @@
+---
+layout: page
+---
+<div class="post">
+  <article>
+    {% if page.profiles %}
+      {% for profile in page.profiles %}
+        <hr>
+        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+          {% if profile.image %}
+            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+            {% if profile.image_circular %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+            {% endif %}
+            <img src="{{ profile_image_path | relative_url }}" class="{{ profile_image_class }}" alt="{{ profile.image }}" style="max-width: 200px;">
+          {% endif %}
+          {% if profile.more_info %}
+            <div class="more-info">{{ profile.more_info }}</div>
+          {% endif %}
+          {% if profile.social %}
+            <div class="social-links">
+              {% include social_profile.html 
+                 email=profile.social.email
+                 website=profile.social.website
+                 scholar_userid=profile.social.scholar_userid
+                 github_username=profile.social.github_username
+                 linkedin_username=profile.social.linkedin_username
+                 twitter_username=profile.social.twitter_username
+                 orcid_id=profile.social.orcid_id
+                 research_gate_profile=profile.social.research_gate_profile
+              %}
+            </div>
+          {% endif %}
+        </div>
+
+        <div class="clearfix">
+          {% if profile.content %}
+            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+            {{ profile_content | markdownify }}
+          {% else %}
+            {{ content }}
+          {% endif %}
+        </div>
+      {% endfor %}
+    {% endif %}
+  </article>
+</div>

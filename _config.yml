@@ -100,6 +100,9 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
+  people:
+    output: true
+    permalink: /people/:path/
   # projects:
   #   output: true
   #   permalink: /projects/:path/

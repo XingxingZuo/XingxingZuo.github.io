@@ -29,6 +29,64 @@
   }
 }
 
+// People/Profiles page
+.profile {
+  margin-bottom: 2rem;
+  
+  &.float-right {
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    width: 30%;
+    max-width: 200px;
+  }
+  
+  &.float-left {
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    width: 30%;
+    max-width: 200px;
+  }
+  
+  .more-info {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--global-text-color-light);
+    
+    p {
+      margin-bottom: 0.25rem;
+    }
+  }
+  
+  .social-links {
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--global-divider-color);
+    
+    a {
+      color: var(--global-text-color-light);
+      font-size: 1.2rem;
+      margin-right: 0.5rem;
+      text-decoration: none;
+      
+      &:hover {
+        color: var(--global-theme-color);
+      }
+      
+      i {
+        transition: color 0.3s ease;
+      }
+    }
+  }
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 // TODO: redefine content layout.
 
 
