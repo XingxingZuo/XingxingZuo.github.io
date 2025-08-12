@@ -4,5 +4,5 @@
 
 
 **Education:**
-- M.S. in Robotics (In Progress) @ MBZUAI
+- MSc. student in Robotics @ MBZUAI
 - B.S. in Automation @ UESTC
