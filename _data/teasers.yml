@@ -75,3 +75,6 @@ ctrl_vio:
 
 2025gaussian_lic2:
   img: teaser/2025gaussian_lic2.gif
+
+2025simgen_hoi:
+  img: teaser/2025simgen_hoi.gif

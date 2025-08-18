@@ -10,7 +10,7 @@ profiles:
   - role: PI
     align: right
     image: people/xingxingzuo_profile.jpg
-    content: pi_xingxingzuo.md
+    content: people/pi_xingxingzuo.md
     image_circular: false
     more_info: >
       <p>Principal Investigator</p>
@@ -24,7 +24,7 @@ profiles:
   - role: PhD
     align: right
     image: people/huajianzeng.png
-    content: phd_huajianzeng.md
+    content: people/phd_huajianzeng.md
     image_circular: false
     more_info: >
       <p>PhD Student</p>
@@ -38,7 +38,7 @@ profiles:
   - role: PhD
     align: right
     image: people/yuantaizhang.jpg
-    content: phd_yuantaizhang.md
+    content: people/phd_yuantaizhang.md
     image_circular: false
     more_info: >
       <p>PhD Student</p>
@@ -50,7 +50,7 @@ profiles:
   - role: MSc
     align: right
     image: people/jingweihuang.jpg
-    content: master_jingweihuang.md
+    content: people/master_jingweihuang.md
     image_circular: false
     more_info: >
       <p>MSc Student</p>
