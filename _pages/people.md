@@ -47,6 +47,18 @@ profiles:
       scholar_userid: Lh2CthAAAAAJ
       linkedin_username: yuantai-zhang-23ba03342
 
+  - role: PhD
+    align: right
+    image: people/yasserashrafsalehattia.jpg
+    content: people/phd_yasserashrafsalehattia.md
+    image_circular: false
+    more_info: >
+      <p>PhD Student</p>
+    social:
+      email: yasser.attia@mbzuai.ac.ae
+      scholar_userid: Q_r99BgAAAAJ&hl
+      github_username: Yasser-Ashraf-Saleh
+      
   - role: MSc
     align: right
     image: people/jingweihuang.jpg
