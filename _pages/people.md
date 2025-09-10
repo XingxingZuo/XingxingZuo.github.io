@@ -76,7 +76,7 @@ profiles:
     content: people/visiting_jiaqiyang.md
     image_circular: false
     more_info: >
-      <p>Visiting Student</p>
+      <p>Visiting PhD Student</p>
     social:
       email: jiaqi.yang@mbzuai.ac.ae
 
