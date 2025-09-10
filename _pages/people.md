@@ -45,7 +45,7 @@ profiles:
     social:
       email: yuantai.zhang@mbzuai.ac.ae
       scholar_userid: Lh2CthAAAAAJ
-      linkedin_username: yuantai-zhang-23ba03342
+      linkedin_username: yuantai-zhang-801704381
 
   - role: PhD
     align: right
@@ -69,6 +69,16 @@ profiles:
     social:
       email: jingwei.huang@mbzuai.ac.ae
       scholar_userid: bCnEQn4AAAAJ
+
+  - role: Visiting
+    align: right
+    image: people/jiaqiyang.jpg
+    content: people/visiting_jiaqiyang.md
+    image_circular: false
+    more_info: >
+      <p>Visiting Student</p>
+    social:
+      email: jiaqi.yang@mbzuai.ac.ae
 
 
 ---
