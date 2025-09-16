@@ -29,7 +29,7 @@ I am **hiring** highly motivated PhD students, research assistants, and visiting
 ---
 
 <h2>research interests</h2>
-My research interests include Robotics, 3D computer vision, state estimation, and embodied AI.  
+My research interests include Robotics, 3D computer vision, visual-inertial learning, state estimation, human-object interaction,  VLN/VLA, spatial AI and embodied AI.  
 
 My long-term research vision is to enable natural interaction and seamless collaboration between robots and humans in open environments by accurately understanding robot states, surrounding 3D scenes, and action execution.
 
