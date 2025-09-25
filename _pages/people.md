@@ -59,17 +59,6 @@ profiles:
       scholar_userid: Q_r99BgAAAAJ&hl
       github_username: Yasser-Ashraf-Saleh
       
-  - role: MSc
-    align: right
-    image: people/jingweihuang.jpg
-    content: people/master_jingweihuang.md
-    image_circular: false
-    more_info: >
-      <p>MSc Student</p>
-    social:
-      email: jingwei.huang@mbzuai.ac.ae
-      scholar_userid: bCnEQn4AAAAJ
-
   - role: Visiting
     align: right
     image: people/jiaqiyang.jpg
