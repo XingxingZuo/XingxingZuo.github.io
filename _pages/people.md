@@ -58,7 +58,17 @@ profiles:
       email: yasser.attia@mbzuai.ac.ae
       scholar_userid: Q_r99BgAAAAJ&hl
       github_username: Yasser-Ashraf-Saleh
-      
+  
+  - role: MSc
+    align: right
+    image: people/chenruwen.png
+    content: people/master_chenruwen.md
+    image_circular: false
+    more_info: >
+      <p>M.Sc. Student</p>
+    social:
+      email: chenru.wen@mbzuai.ac.ae
+
   - role: Visiting
     align: right
     image: people/jiaqiyang.jpg
