@@ -29,7 +29,7 @@ I am **hiring** highly motivated PhD students, research assistants, and visiting
 ---
 
 <h2>research interests</h2>
-My research interests include Robotics, 3D computer vision, visual-inertial learning, state estimation, human-object interaction,  VLN/VLA, spatial AI and embodied AI.  
+My research interests include robot perception, 3D computer vision, visual-inertial learning, state estimation, human-object interaction,  mobile manipulation, VLN/VLA, spatial AI and embodied AI.  
 
 My long-term research vision is to enable natural interaction and seamless collaboration between robots and humans in open environments by accurately understanding robot states, surrounding 3D scenes, and action execution.
 
@@ -46,11 +46,13 @@ My long-term research vision is to enable natural interaction and seamless colla
 ---
 
 <h2>academic services</h2>
-<b>Associate Editor</b>: IEEE Transactions on Robotics ([T-RO](https://www.ieee-ras.org/publications/t-ro), from January 2026), IEEE Robotics and Automation Letters ([RA-L](https://www.ieee-ras.org/publications/ra-l), since March 2022), IEEE/RSJ International Conference on Intelligent Robots and Systems ([IROS](https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros), 2022&2023&2024&2025), IEEE International Conference on Robotics and Automation ([ICRA](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra), 2023&2024&2025&2026).
+<b>Journal Associate Editor</b>: IEEE Transactions on Robotics ([T-RO](https://www.ieee-ras.org/publications/t-ro), from January 2026), IEEE Robotics and Automation Letters ([RA-L](https://www.ieee-ras.org/publications/ra-l), since March 2022)
+
+<b>Conference Associate Editor / Area Chair</b>:  Robotics: Science and Systems ([RSS](https://roboticsconference.org/), 2026), IEEE/RSJ International Conference on Intelligent Robots and Systems ([IROS](https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros), 2022&2023&2024&2025), IEEE International Conference on Robotics and Automation ([ICRA](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra), 2023&2024&2025&2026).
 
 <b>Workshop Organizer</b>:  [Thermal Infrared in Robotics](https://sites.google.com/view/tiro25/) in ICRA 2025.
 
-<b>Program Committee (Area Chair)</b>:  [IEEE MOST 2025](https://ieeemobility.org/MOST2025/); [ICRA 2025 Workshop on Foundation Models and Neuro-Symbolic AI for Robotics](https://sairlab.org/icra25/)
+<b>Program Committee / Area Chair</b>:  [IEEE MOST 2025](https://ieeemobility.org/MOST2025/); [ICRA 2025 Workshop on Foundation Models and Neuro-Symbolic AI for Robotics](https://sairlab.org/icra25/)
 
 <b>Conference Session Chair</b>: IROS 2023.
 
