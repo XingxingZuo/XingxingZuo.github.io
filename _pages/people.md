@@ -32,7 +32,7 @@ profiles:
       email: huajian.zeng@mbzuai.ac.ae
       website: https://zenghjian.github.io/
       scholar_userid: RN6p8AEAAAAJ
-      github_username: zenghjian
+      github_username: huajian-zeng
       linkedin_username: huajian-zeng-7282b8214
   
   - role: PhD
@@ -58,7 +58,7 @@ profiles:
       email: yasser.attia@mbzuai.ac.ae
       scholar_userid: Q_r99BgAAAAJ&hl
       github_username: Yasser-Ashraf-Saleh
-  
+
   - role: MSc
     align: right
     image: people/chenruwen.png
@@ -78,7 +78,18 @@ profiles:
       <p>Visiting PhD Student</p>
     social:
       email: jiaqi.yang@mbzuai.ac.ae
-
+  - role: Visiting
+    align: right
+    image: people/sifanzhou.jpg
+    content: people/visiting_sifanzhou.md
+    image_circular: false
+    more_info: >
+      <p>Visiting PhD Student</p>
+    social:
+      email: sifan.zhou@mbzuai.ac.ae
+      scholar_userid: kSdqoi0AAAAJ&hl
+      github_username: StiphyJay
+      linkedin_username: sifan-zhou-99838028b  
 
 ---
 ## Former Students Supervised by Prof. Xingxing Zuo
