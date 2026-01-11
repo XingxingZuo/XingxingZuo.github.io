@@ -78,18 +78,18 @@ profiles:
       <p>Visiting PhD Student</p>
     social:
       email: jiaqi.yang@mbzuai.ac.ae
-  - role: Visiting
-    align: right
-    image: people/sifanzhou.jpg
-    content: people/visiting_sifanzhou.md
-    image_circular: false
-    more_info: >
-      <p>Visiting PhD Student</p>
-    social:
-      email: sifan.zhou@mbzuai.ac.ae
-      scholar_userid: kSdqoi0AAAAJ&hl
-      github_username: StiphyJay
-      linkedin_username: sifan-zhou-99838028b  
+  # - role: Visiting
+  #   align: right
+  #   image: people/sifanzhou.jpg
+  #   content: people/visiting_sifanzhou.md
+  #   image_circular: false
+  #   more_info: >
+  #     <p>Visiting PhD Student</p>
+  #   social:
+  #     email: sifan.zhou@mbzuai.ac.ae
+  #     scholar_userid: kSdqoi0AAAAJ&hl
+  #     github_username: StiphyJay
+  #     linkedin_username: sifan-zhou-99838028b  
 
 ---
 ## Former Students Supervised by Prof. Xingxing Zuo
