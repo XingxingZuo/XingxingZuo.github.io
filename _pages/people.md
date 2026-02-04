@@ -78,6 +78,17 @@ profiles:
       <p>Visiting PhD Student</p>
     social:
       email: jiaqi.yang@mbzuai.ac.ae
+      
+  - role: Visiting
+    align: right
+    image: people/yibinwu.jpg
+    content: people/visiting_yibinwu.md
+    image_circular: false
+    more_info: >
+      <p>Visiting PhD Student</p>
+    social:
+      email: yibin.wu@mbzuai.ac.ae
+
   - role: Visiting
     align: right
     image: people/omargarib.jpeg
@@ -87,6 +98,7 @@ profiles:
       <p>Visiting Master Student</p>
     social:
       email: omar.garib@mbzuai.ac.ae
+
   # - role: Visiting
   #   align: right
   #   image: people/sifanzhou.jpg
