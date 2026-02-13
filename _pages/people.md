@@ -99,6 +99,16 @@ profiles:
     social:
       email: omar.garib@mbzuai.ac.ae
 
+  - role: Visiting
+    align: right
+    image: people/yiranyuan.jpg
+    content: people/visiting_yiranyuan.md
+    image_circular: false
+    more_info: >
+      <p>Visiting Master Student</p>
+    social:
+      email: yiran.yuan@mbzuai.ac.ae      
+
   # - role: Visiting
   #   align: right
   #   image: people/sifanzhou.jpg
