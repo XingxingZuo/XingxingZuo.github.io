@@ -1,4 +1,4 @@
-### Yibin Wu
+### Yiran Yuan
 
 **Research Interests:** 3D Perception, Motion Planning, Robot Learning, Embodied AI
 
