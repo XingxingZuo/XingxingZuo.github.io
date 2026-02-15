@@ -126,7 +126,7 @@ profiles:
 ## Former Students Supervised by Prof. Xingxing Zuo
 
 Prof. Xingxing Zuo also supervised many other students before joining MBZUAI, including:
-- [Xiaolei Lang](https://scholar.google.com/citations?user=59RQI_IAAAAJ) (PhD, ZJU; Co-advised with Porf. Yong Liu), 2020.09 – now.
+- [Xiaolei Lang](https://scholar.google.com/citations?user=59RQI_IAAAAJ) (PhD, ZJU; Co-advised with Porf. Yong Liu), 2020.09 – 2025.09.
 - Kevin Do (B.Sc, Caltech), 2024.06 – 2025.03.
 - Peilun Guo (M.Sc, TUM), 2023.06 – 2023.01.
 - Juan Galvis (M.Sc, TUM), 2023.04 – 2023.01.
@@ -141,5 +141,3 @@ Prof. Xingxing Zuo also supervised many other students before joining MBZUAI, in
 - Jingyuan Ma (M.Sc, ETH), 2020.02 – 2020.08.
 - [Jiajun Lv](https://scholar.google.com/citations?user=-CQD_HgAAAAJ&hl=en) (PhD, ZJU; Co-advised with Porf. Yong Liu), 2018.09 – 2023.06.
 - etc.
-
-We wish all of them the best of success!
