@@ -30,7 +30,7 @@ profiles:
       <p>PhD Student</p>
     social:
       email: huajian.zeng@mbzuai.ac.ae
-      website: https://zenghjian.github.io/
+      website: https://huajian-zeng.github.io/
       scholar_userid: RN6p8AEAAAAJ
       github_username: huajian-zeng
       linkedin_username: huajian-zeng-7282b8214
@@ -79,15 +79,15 @@ profiles:
     social:
       email: jiaqi.yang@mbzuai.ac.ae
       
-  - role: Visiting
-    align: right
-    image: people/yibinwu.jpg
-    content: people/visiting_yibinwu.md
-    image_circular: false
-    more_info: >
-      <p>Visiting PhD Student</p>
-    social:
-      email: yibin.wu@mbzuai.ac.ae
+  # - role: Visiting
+  #   align: right
+  #   image: people/yibinwu.jpg
+  #   content: people/visiting_yibinwu.md
+  #   image_circular: false
+  #   more_info: >
+  #     <p>Visiting PhD Student</p>
+  #   social:
+  #     email: yibin.wu@mbzuai.ac.ae
 
   - role: Visiting
     align: right
