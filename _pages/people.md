@@ -20,6 +20,17 @@ profiles:
       scholar_userid: CePv8agAAAAJ
       github_username: ZuoJiaxing
       linkedin_username: xingxingzuo
+
+  - role: Postdoc
+    align: right
+    image: people/hongjiazhai.jpg
+    content: people/postdoc_hongjiazhai.md
+    image_circular: false
+    more_info: >
+      <p>Postdoctoral Researcher</p>
+    social:
+      website: https://zhaihongjia.github.io/
+      scholar_userid: alXpF8wAAAAJ
   
   - role: PhD
     align: right
@@ -30,7 +41,7 @@ profiles:
       <p>PhD Student</p>
     social:
       email: huajian.zeng@mbzuai.ac.ae
-      website: https://zenghjian.github.io/
+      website: https://huajian-zeng.github.io/
       scholar_userid: RN6p8AEAAAAJ
       github_username: huajian-zeng
       linkedin_username: huajian-zeng-7282b8214
@@ -79,15 +90,15 @@ profiles:
     social:
       email: jiaqi.yang@mbzuai.ac.ae
       
-  - role: Visiting
-    align: right
-    image: people/yibinwu.jpg
-    content: people/visiting_yibinwu.md
-    image_circular: false
-    more_info: >
-      <p>Visiting PhD Student</p>
-    social:
-      email: yibin.wu@mbzuai.ac.ae
+  # - role: Visiting
+  #   align: right
+  #   image: people/yibinwu.jpg
+  #   content: people/visiting_yibinwu.md
+  #   image_circular: false
+  #   more_info: >
+  #     <p>Visiting PhD Student</p>
+  #   social:
+  #     email: yibin.wu@mbzuai.ac.ae
 
   - role: Visiting
     align: right
