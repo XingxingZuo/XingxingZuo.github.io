@@ -29,7 +29,7 @@ I am **hiring** highly motivated PhD students, research assistants, visiting gra
 ---
 
 <h2>research interests</h2>
-My research interests include robot perception, 3D computer vision, hand-object interaction, visual-inertial learning, state estimation, mobile manipulation, dexterous manipulation, VLN/VLA, spatial AI and embodied AI.  
+My research interests include robot perception, hand-object interaction, state estimation, 3D computer vision, SLAM, mobile manipulation, dexterous manipulation, VLN/VLA, spatial AI and embodied AI.  
 
 My long-term research vision is to enable natural interaction and seamless collaboration between robots and humans in open environments by accurately understanding robot states, surrounding 3D scenes, and action execution.
 
