@@ -1,5 +1,19 @@
 ---
 ---
+@article{zeng2026stanblehand,
+  title={<a name="lnk_lin2026flowhoi"> StableHand: Quality-Aware Flow Matching for World-Space Dual-Hand Motion Estimation from Egocentric Video </a>},
+  author={Zeng, Huajian and Yao, Chaohua and Zhang, Yuantai and Yang, Jiaqi and Potamias, Rolandos Alexandros and <em><b>Zuo<sup>#</sup></b></em>, <em><b>Xingxing</b></em>},
+  journal={arXiv preprint arXiv:2605.18553},
+  year={2026},
+  abstract={Recovering world space 4D motion of two interacting hands from egocentric video is a fundamental capability for supervising robot policy learning, where wrist trajectories track the end-effector and finger articulations specify the grasp pose. Two major challenges arise in this setting: hands frequently leave the camera view for extended periods due to head motion, and persistent hand-object interactions cause severe occlusions of one or both hands. Existing methods uniformly condition on noisy hand motion observations without accounting for their per-frame reliability, leading to substantial performance degradation. Our key insight is that accurate world space hand motion estimation is tightly coupled with the quality of per-frame hand observations. To this end, we decompose the quality of hand motion observations extracted from an off-the-shelf hand pose estimator into four channels: wrist global translation and finger articulations for both hands. We propose StableHand, a quality-aware flow-matching framework conditioned on these four-channel quality signals, which are predicted by a learned quality network. We naturally incorporate the quality signals into the flow-matching process through a per-channel forward schedule, a quality-adjusted velocity target, AdaLN modulation of the DiT denoiser, and a quality-aware ODE initialization. This unified generative process preserves high-quality observations while reconstructing unreliable ones using a learned bimanual motion prior. Experiments on HOT3D and ARCTIC, two egocentric benchmarks featuring long missing-hand spans and persistent hand-object occlusions, show that StableHand achieves state-of-the-art performance across all reported metrics, reducing W-MPJPE by 20-25% compared to the strongest baseline, with the largest gains on heavily occluded ARCTIC sequences.},
+  abbr={zeng2026stablehand},
+  arxiv={2605.18553},
+  video={https://www.youtube.com/watch?v=2UmaYTKQOAM},
+  webpage={https://huajian-zeng.github.io/projects/stablehand/#},
+  code={https://github.com/huajian-zeng/stablehand}
+}
+
+
 @article{zeng2026flowhoi,
   title={<a name="lnk_lin2026flowhoi"> FlowHOI: Flow-based Semantics-Grounded Generation of Hand-Object Interactions for Dexterous Robot Manipulation </a>},
   author={Zeng, Huajian and Chen, Lingyun and Yang, Jiaqi and Zhang, Yuantai and Shi, Fan and Liu, Peidong and <em><b>Zuo<sup>#</sup></b></em>, <em><b>Xingxing</b></em>},
@@ -9,7 +23,8 @@
   abbr={zeng2026flowhoi},
   arxiv={2602.13444},
   video={https://www.youtube.com/watch?v=c_ayPvccyi8},
-  webpage={https://huajian-zeng.github.io/projects/flowhoi}
+  webpage={https://huajian-zeng.github.io/projects/flowhoi},
+  code={https://github.com/huajian-zeng/flowhoi}
 }
 
 

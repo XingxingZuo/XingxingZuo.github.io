@@ -29,7 +29,7 @@ I am **hiring** highly motivated PhD students, research assistants, visiting gra
 ---
 
 <h2>research interests</h2>
-My research interests include robot perception, 3D computer vision, visual-inertial learning, state estimation, human-object interaction,  mobile manipulation, VLN/VLA, spatial AI and embodied AI.  
+My research interests include robot perception, 3D computer vision, hand-object interaction, visual-inertial learning, state estimation, mobile manipulation, dexterous manipulation, VLN/VLA, spatial AI and embodied AI.  
 
 My long-term research vision is to enable natural interaction and seamless collaboration between robots and humans in open environments by accurately understanding robot states, surrounding 3D scenes, and action execution.
 
@@ -50,7 +50,7 @@ My long-term research vision is to enable natural interaction and seamless colla
 
 <b>Conference Associate Editor / Area Chair</b>:  Robotics: Science and Systems ([RSS](https://roboticsconference.org/), 2026), IEEE/RSJ International Conference on Intelligent Robots and Systems ([IROS](https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros), 2022&2023&2024&2025), IEEE International Conference on Robotics and Automation ([ICRA](https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra), 2023&2024&2025&2026).
 
-<b>Workshop Organizer</b>:  [Thermal Infrared in Robotics](https://sites.google.com/view/tiro25/) in ICRA 2025.
+<b>Workshop Organizer</b>:  [Multi-Modal Spatial AI](https://xingxingzuo.github.io/MM-SpatialAI/) in ICRA 2026; [Thermal Infrared in Robotics](https://sites.google.com/view/tiro25/) in ICRA 2025.
 
 <b>Program Committee / Area Chair</b>:  [IEEE MOST 2025](https://ieeemobility.org/MOST2025/); [ICRA 2025 Workshop on Foundation Models and Neuro-Symbolic AI for Robotics](https://sairlab.org/icra25/)
 
@@ -66,6 +66,8 @@ Robotics Research (IJRR), Journal of Field Robotics (J-FR), IEEE Transactions on
 ---
 
 <h2>representative talks</h2>
+- 2026.05 Keynote talk on “Scaling Robot Learning”. Symposium on Emboded AI, MBZUAI (Abu Dhabi).
+- 2026.04 Keynote talk on “Towards Spatially Intelligent Robots”. CERO, NYU (New York).  
 - 2025.03 A talk about "Spatial Intelligent Robots". Virginia Tech (Blacksburg).
 - 2025.03 A talk about "Spatial Intelligent Robots". KAUST (Saudi Arabia).
 - 2025.01 A talk about "Robust 3D Perception". MIT (Boston).
