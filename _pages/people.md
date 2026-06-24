@@ -120,6 +120,14 @@ profiles:
     social:
       email: yiran.yuan@mbzuai.ac.ae      
 
+  - role: Visiting
+    align: right
+    image: people/mingkailiu.png
+    content: people/visiting_mingkailiu.md
+    image_circular: false
+    more_info: >
+      <p>Visiting Master Student</p>
+
   # - role: Visiting
   #   align: right
   #   image: people/sifanzhou.jpg
