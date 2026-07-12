@@ -89,6 +89,14 @@ profiles:
       <p>Visiting PhD Student</p>
     social:
       email: jiaqi.yang@mbzuai.ac.ae
+
+  - role: Visiting
+    align: right
+    image: people/kaijieyin.jpg
+    content: people/visiting_kaijieyin.md
+    image_circular: false
+    more_info: >
+      <p>Visiting PhD Student</p>
       
   # - role: Visiting
   #   align: right
