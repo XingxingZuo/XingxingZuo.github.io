@@ -66,6 +66,7 @@ Robotics Research (IJRR), Journal of Field Robotics (J-FR), IEEE Transactions on
 ---
 
 <h2>representative talks</h2>
+- 2026.07 Keynote talk on “Spatial Intelligence for Open-World Autonomy”. [Human-Centric Mobile Manipulation Workshop](https://adacompnus.github.io/human-centric-mobile-manipulation/), on RSS 2026 (Sydney).
 - 2026.05 Keynote talk on “Scaling Robot Learning”. Symposium on Emboded AI, MBZUAI (Abu Dhabi).
 - 2026.04 Keynote talk on “Towards Spatially Intelligent Robots”. CERO, NYU (New York).  
 - 2025.03 A talk about "Spatial Intelligent Robots". Virginia Tech (Blacksburg).
