@@ -6,14 +6,25 @@ description: Members of our Robotics Cognition and Learning (RCL) group at MBZUA
 nav: true
 nav_order: 3
 
+# Section order on the page. Each entry pulls every profile with a matching `role`.
+groups:
+  - title: Faculty
+    role: PI
+  - title: Postdoctoral Researchers
+    role: Postdoc
+  - title: PhD Students
+    role: PhD
+  - title: Master Students
+    role: MSc
+  - title: Visiting Students
+    role: Visiting
+
 profiles:
   - role: PI
-    align: right
+    name: Xingxing Zuo
     image: people/xingxingzuo_profile.jpg
-    content: people/pi_xingxingzuo.md
-    image_circular: false
-    more_info: >
-      <p>Principal Investigator</p>
+    image_position: center 15%
+    position: Assistant Professor, Robotics
     social:
       email: xingxing.zuo@mbzuai.ac.ae
       website: https://xingxingzuo.github.io/
@@ -22,149 +33,127 @@ profiles:
       linkedin_username: xingxingzuo
 
   - role: Postdoc
-    align: right
+    name: Hongjia Zhai
     image: people/hongjiazhai.jpg
-    content: people/postdoc_hongjiazhai.md
-    image_circular: false
-    more_info: >
-      <p>Postdoctoral Researcher</p>
+    image_position: center bottom
+    position: Postdoctoral Researcher
     social:
       website: https://zhaihongjia.github.io/
       scholar_userid: alXpF8wAAAAJ
-  
+
   - role: PhD
-    align: right
+    name: Huajian Zeng
     image: people/huajianzeng.png
-    content: people/phd_huajianzeng.md
-    image_circular: false
-    more_info: >
-      <p>PhD Student</p>
+    image_position: center top
+    position: PhD Student
     social:
       email: huajian.zeng@mbzuai.ac.ae
       website: https://huajian-zeng.github.io/
       scholar_userid: RN6p8AEAAAAJ
       github_username: huajian-zeng
       linkedin_username: huajian-zeng-7282b8214
-  
+
   - role: PhD
-    align: right
+    name: Yuantai Zhang
     image: people/yuantaizhang.jpg
-    content: people/phd_yuantaizhang.md
-    image_circular: false
-    more_info: >
-      <p>PhD Student</p>
+    position: PhD Student
     social:
       email: yuantai.zhang@mbzuai.ac.ae
       scholar_userid: Lh2CthAAAAAJ
       linkedin_username: yuantai-zhang-801704381
 
   - role: PhD
-    align: right
+    name: Yasser Ashraf Saleh Attia
     image: people/yasserashrafsalehattia.jpg
-    content: people/phd_yasserashrafsalehattia.md
-    image_circular: false
-    more_info: >
-      <p>PhD Student</p>
+    position: PhD Student
     social:
       email: yasser.attia@mbzuai.ac.ae
       scholar_userid: Q_r99BgAAAAJ&hl
       github_username: Yasser-Ashraf-Saleh
 
   - role: MSc
-    align: right
+    name: Chenru Wen
     image: people/chenruwen.png
-    content: people/master_chenruwen.md
-    image_circular: false
-    more_info: >
-      <p>M.Sc. Student</p>
+    image_position: center top
+    position: M.Sc. Student<br>Co-advised with Prof. Dezhen Song
     social:
       email: chenru.wen@mbzuai.ac.ae
 
   - role: Visiting
-    align: right
+    name: Jiaqi Yang
     image: people/jiaqiyang.jpg
-    content: people/visiting_jiaqiyang.md
-    image_circular: false
-    more_info: >
-      <p>Visiting PhD Student</p>
+    position: Visiting PhD Student<br>ShanghaiTech University
     social:
       email: jiaqi.yang@mbzuai.ac.ae
 
   - role: Visiting
-    align: right
+    name: Kaijie Yin
     image: people/kaijieyin.jpg
-    content: people/visiting_kaijieyin.md
-    image_circular: false
-    more_info: >
-      <p>Visiting PhD Student</p>
-      
-  # - role: Visiting
-  #   align: right
-  #   image: people/yibinwu.jpg
-  #   content: people/visiting_yibinwu.md
-  #   image_circular: false
-  #   more_info: >
-  #     <p>Visiting PhD Student</p>
-  #   social:
-  #     email: yibin.wu@mbzuai.ac.ae
+    position: Visiting PhD Student<br>The University of Tokyo
 
   - role: Visiting
-    align: right
+    name: Omar Atef Labib Mohamed Garib
     image: people/omargarib.jpeg
-    content: people/visiting_omargarib.md
-    image_circular: false
-    more_info: >
-      <p>Visiting Master Student</p>
+    position: Visiting Master Student<br>Georgia Tech
     social:
       email: omar.garib@mbzuai.ac.ae
 
   - role: Visiting
-    align: right
+    name: Yiran Yuan
     image: people/yiranyuan.jpg
-    content: people/visiting_yiranyuan.md
-    image_circular: false
-    more_info: >
-      <p>Visiting Master Student</p>
+    image_position: center 75%
+    position: Visiting Master Student<br>UC Berkeley
     social:
-      email: yiran.yuan@mbzuai.ac.ae      
+      email: yiran.yuan@mbzuai.ac.ae
 
   - role: Visiting
-    align: right
+    name: Mingkai Liu
     image: people/mingkailiu.png
-    content: people/visiting_mingkailiu.md
-    image_circular: false
-    more_info: >
-      <p>Visiting Master Student</p>
+    image_position: center top
+    position: Visiting Master Student<br>Peking University
 
   # - role: Visiting
-  #   align: right
+  #   name: Yibin Wu
+  #   image: people/yibinwu.jpg
+  #   position: Visiting PhD Student<br>University of Bonn
+  #   social:
+  #     email: yibin.wu@mbzuai.ac.ae
+
+  # - role: Visiting
+  #   name: Sifan Zhou
   #   image: people/sifanzhou.jpg
-  #   content: people/visiting_sifanzhou.md
-  #   image_circular: false
-  #   more_info: >
-  #     <p>Visiting PhD Student</p>
+  #   position: Visiting PhD Student<br>Southeast University
   #   social:
   #     email: sifan.zhou@mbzuai.ac.ae
   #     scholar_userid: kSdqoi0AAAAJ&hl
   #     github_username: StiphyJay
-  #     linkedin_username: sifan-zhou-99838028b  
-
+  #     linkedin_username: sifan-zhou-99838028b
 ---
-## Former Students Supervised by Prof. Xingxing Zuo
 
-Prof. Xingxing Zuo also supervised many other students before joining MBZUAI, including:
-- [Xiaolei Lang](https://scholar.google.com/citations?user=59RQI_IAAAAJ) (PhD, ZJU; Co-advised with Porf. Yong Liu), 2020.09 – 2025.09.
-- Kevin Do (B.Sc, Caltech), 2024.06 – 2025.03.
-- Peilun Guo (M.Sc, TUM), 2023.06 – 2023.01.
-- Juan Galvis (M.Sc, TUM), 2023.04 – 2023.01.
-- Jens Naumann (M.Sc, TUM), 2023.04 – 2023.12.
-- [Hanfeng Wu](https://scholar.google.com/citations?user=BFPAiJgAAAAJ&hl=en) (M.Sc, TUM), 2023.04 – 2023.11.
-- Yixin Mai (M.Sc, TUM), 2023.02 – 2023.11.
-- Chuanlong Zang (M.Sc, TUM), 2023.02 – 2023.10.
-- Yining Ma (M.Sc, TUM), 2022.10 – 2023.04.
-- [Yingye Xin](https://yingyexin.github.io/) (M.Sc, TUM), 2022.10 – 2023.11.
-- Dongyue Lu (M.Sc, TUM), 2022.09 – 2023.05.
-- Zhijie Ye (M.Sc, TUM), 2021.12 – 2022.08.
-- Jingyuan Ma (M.Sc, ETH), 2020.02 – 2020.08.
-- [Jiajun Lv](https://scholar.google.com/citations?user=-CQD_HgAAAAJ&hl=en) (PhD, ZJU; Co-advised with Porf. Yong Liu), 2018.09 – 2023.06.
-- etc.
+## Alumni
+
+<p class="section-note">Students supervised by Prof. Xingxing Zuo before joining MBZUAI.</p>
+
+### Ph.D. Students
+
+| Name | Degree | Period |
+| --- | --- | --- |
+| [Xiaolei Lang](https://scholar.google.com/citations?user=59RQI_IAAAAJ) | Ph.D., ZJU (co-advised with Prof. Yong Liu) | 2020.09 – 2025.09 |
+| [Jiajun Lv](https://scholar.google.com/citations?user=-CQD_HgAAAAJ&hl=en) | Ph.D., ZJU (co-advised with Prof. Yong Liu) | 2018.09 – 2023.06 |
+
+### Master and Bachelor Students
+
+| Name | Degree | Period |
+| --- | --- | --- |
+| Kevin Do | B.Sc., Caltech | 2024.06 – 2025.03 |
+| Peilun Guo | M.Sc., TUM | 2023.06 – 2023.01 |
+| Juan Galvis | M.Sc., TUM | 2023.04 – 2023.01 |
+| Jens Naumann | M.Sc., TUM | 2023.04 – 2023.12 |
+| [Hanfeng Wu](https://scholar.google.com/citations?user=BFPAiJgAAAAJ&hl=en) | M.Sc., TUM | 2023.04 – 2023.11 |
+| Yixin Mai | M.Sc., TUM | 2023.02 – 2023.11 |
+| Chuanlong Zang | M.Sc., TUM | 2023.02 – 2023.10 |
+| [Yingye Xin](https://yingyexin.github.io/) | M.Sc., TUM | 2022.10 – 2023.11 |
+| Yining Ma | M.Sc., TUM | 2022.10 – 2023.04 |
+| Dongyue Lu | M.Sc., TUM | 2022.09 – 2023.05 |
+| Zhijie Ye | M.Sc., TUM | 2021.12 – 2022.08 |
+| Jingyuan Ma | M.Sc., ETH Zurich | 2020.02 – 2020.08 |

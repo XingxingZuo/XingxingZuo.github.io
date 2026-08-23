@@ -4,237 +4,59 @@ layout: page
 <div class="post">
   <article>
 
-    {% if page.profiles %}
+    {% for group in page.groups %}
+      {% assign members = page.profiles | where: "role", group.role %}
+      {% if members.size > 0 %}
+        <section class="people-section">
+          <h2>{{ group.title }}</h2>
+          {% if group.note %}<p class="section-note">{{ group.note }}</p>{% endif %}
 
-      <!-- Principal Investigator -->
-      <h2>Principal Investigator</h2>
-      {% for profile in page.profiles %}
-        {% if profile.role == "PI" %}
-          <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-            {% if profile.image %}
-              {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-              {% if profile.image_circular %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-              {% else %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-              {% endif %}
-              <img src="{{ profile_image_path | relative_url }}" class="{{ profile_image_class }}" alt="{{ profile.image }}" style="max-width: 200px;">
-            {% endif %}
-            {% if profile.more_info %}
-              <div class="more-info">{{ profile.more_info }}</div>
-            {% endif %}
-            {% if profile.social %}
-              <div class="social-links">
-                {% include social_profile.html 
-                   email=profile.social.email
-                   website=profile.social.website
-                   scholar_userid=profile.social.scholar_userid
-                   github_username=profile.social.github_username
-                   linkedin_username=profile.social.linkedin_username
-                   twitter_username=profile.social.twitter_username
-                   orcid_id=profile.social.orcid_id
-                   research_gate_profile=profile.social.research_gate_profile
-                %}
+          <div class="people-grid">
+            {% for person in members %}
+              <div class="person">
+                {% if person.image %}
+                  {% assign image_path = person.image | prepend: 'assets/img/' %}
+                  <img src="{{ image_path | relative_url }}"
+                       alt="{{ person.name }}"
+                       class="{% if person.image_circular %}person-img-circle{% endif %}"
+                       {% if person.image_position %}style="object-position: {{ person.image_position }};"{% endif %}
+                       loading="lazy">
+                {% endif %}
+
+                <p class="person-name">
+                  {% if person.social.website %}
+                    <a href="{{ person.social.website }}" target="_blank" rel="noopener">{{ person.name }}</a>
+                  {% else %}
+                    {{ person.name }}
+                  {% endif %}
+                </p>
+
+                {% if person.position %}<p class="person-role">{{ person.position }}</p>{% endif %}
+
+                {% if person.social %}
+                  <div class="person-links">
+                    {% include social_profile.html
+                       email=person.social.email
+                       website=person.social.website
+                       scholar_userid=person.social.scholar_userid
+                       github_username=person.social.github_username
+                       linkedin_username=person.social.linkedin_username
+                       twitter_username=person.social.twitter_username
+                       orcid_id=person.social.orcid_id
+                       research_gate_profile=person.social.research_gate_profile
+                    %}
+                  </div>
+                {% endif %}
               </div>
-            {% endif %}
+            {% endfor %}
           </div>
-          <div class="clearfix">
-            {% if profile.content %}
-              {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-              {{ profile_content | markdownify }}
-            {% else %}
-              {{ content }}
-            {% endif %}
-          </div>
-        {% endif %}
-      {% endfor %}
-      <hr>
+        </section>
+      {% endif %}
+    {% endfor %}
 
-      <!-- Postdoctoral Researchers -->
-      <h2>Postdoctoral Researchers</h2>
-      {% for profile in page.profiles %}
-        {% if profile.role == "Postdoc" %}
-          <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-            {% if profile.image %}
-              {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-              {% if profile.image_circular %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-              {% else %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-              {% endif %}
-              <img src="{{ profile_image_path | relative_url }}" class="{{ profile_image_class }}" alt="{{ profile.image }}" style="max-width: 200px;">
-            {% endif %}
-            {% if profile.more_info %}
-              <div class="more-info">{{ profile.more_info }}</div>
-            {% endif %}
-            {% if profile.social %}
-              <div class="social-links">
-                {% include social_profile.html
-                   email=profile.social.email
-                   website=profile.social.website
-                   scholar_userid=profile.social.scholar_userid
-                   github_username=profile.social.github_username
-                   linkedin_username=profile.social.linkedin_username
-                   twitter_username=profile.social.twitter_username
-                   orcid_id=profile.social.orcid_id
-                   research_gate_profile=profile.social.research_gate_profile
-                %}
-              </div>
-            {% endif %}
-          </div>
-          <div class="clearfix">
-            {% if profile.content %}
-              {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-              {{ profile_content | markdownify }}
-            {% else %}
-              {{ content }}
-            {% endif %}
-          </div>
-        {% endif %}
-      {% endfor %}
-      <hr>
-
-      <!-- PhD Students -->
-      <h2>PhD Students</h2>
-      {% for profile in page.profiles %}
-        {% if profile.role == "PhD" %}
-          <!-- same profile card code as above -->
-          <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-            {% if profile.image %}
-              {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-              {% if profile.image_circular %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-              {% else %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-              {% endif %}
-              <img src="{{ profile_image_path | relative_url }}" class="{{ profile_image_class }}" alt="{{ profile.image }}" style="max-width: 200px;">
-            {% endif %}
-            {% if profile.more_info %}
-              <div class="more-info">{{ profile.more_info }}</div>
-            {% endif %}
-            {% if profile.social %}
-              <div class="social-links">
-                {% include social_profile.html 
-                   email=profile.social.email
-                   website=profile.social.website
-                   scholar_userid=profile.social.scholar_userid
-                   github_username=profile.social.github_username
-                   linkedin_username=profile.social.linkedin_username
-                   twitter_username=profile.social.twitter_username
-                   orcid_id=profile.social.orcid_id
-                   research_gate_profile=profile.social.research_gate_profile
-                %}
-              </div>
-            {% endif %}
-          </div>
-          <div class="clearfix">
-            {% if profile.content %}
-              {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-              {{ profile_content | markdownify }}
-            {% else %}
-              {{ content }}
-            {% endif %}
-          </div>
-        {% endif %}
-      {% endfor %}
-      <hr>
-
-
-      <!-- Visiting Students -->
-      <h2>Visiting Students</h2>
-      {% for profile in page.profiles %}
-        {% if profile.role == "Visiting" %}
-          <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-            {% if profile.image %}
-              {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-              {% if profile.image_circular %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-              {% else %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-              {% endif %}
-              <img src="{{ profile_image_path | relative_url }}" class="{{ profile_image_class }}" alt="{{ profile.image }}" style="max-width: 200px;">
-            {% endif %}
-            {% if profile.more_info %}
-              <div class="more-info">{{ profile.more_info }}</div>
-            {% endif %}
-            {% if profile.social %}
-              <div class="social-links">
-                {% include social_profile.html 
-                   email=profile.social.email
-                   website=profile.social.website
-                   scholar_userid=profile.social.scholar_userid
-                   github_username=profile.social.github_username
-                   linkedin_username=profile.social.linkedin_username
-                   twitter_username=profile.social.twitter_username
-                   orcid_id=profile.social.orcid_id
-                   research_gate_profile=profile.social.research_gate_profile
-                %}
-              </div>
-            {% endif %}
-          </div>
-          <div class="clearfix">
-            {% if profile.content %}
-              {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-              {{ profile_content | markdownify }}
-            {% else %}
-              {{ content }}
-            {% endif %}
-          </div>
-        {% endif %}
-      {% endfor %}
-      <hr>
-
-      <!-- MSc Students -->
-      <h2>MSc Students</h2>
-      {% for profile in page.profiles %}
-        {% if profile.role == "MSc" %}
-          <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-            {% if profile.image %}
-              {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-              {% if profile.image_circular %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-              {% else %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-              {% endif %}
-              <img src="{{ profile_image_path | relative_url }}" class="{{ profile_image_class }}" alt="{{ profile.image }}" style="max-width: 200px;">
-            {% endif %}
-            {% if profile.more_info %}
-              <div class="more-info">{{ profile.more_info }}</div>
-            {% endif %}
-            {% if profile.social %}
-              <div class="social-links">
-                {% include social_profile.html 
-                   email=profile.social.email
-                   website=profile.social.website
-                   scholar_userid=profile.social.scholar_userid
-                   github_username=profile.social.github_username
-                   linkedin_username=profile.social.linkedin_username
-                   twitter_username=profile.social.twitter_username
-                   orcid_id=profile.social.orcid_id
-                   research_gate_profile=profile.social.research_gate_profile
-                %}
-              </div>
-            {% endif %}
-          </div>
-          <div class="clearfix">
-            {% if profile.content %}
-              {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-              {{ profile_content | markdownify }}
-            {% else %}
-              {{ content }}
-            {% endif %}
-          </div>
-        {% endif %}
-      {% endfor %}
-      <hr>
-
-    {% endif %}
-    <hr>
-
-    <!-- Render extra Markdown content from the page -->
-    <div class="former-students">
+    <section class="people-section alumni-section">
       {{ content }}
-    </div>
+    </section>
 
   </article>
 </div>

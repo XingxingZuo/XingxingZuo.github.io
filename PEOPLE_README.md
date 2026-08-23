@@ -1,23 +1,28 @@
 # People Section User Guide
 
-## How to Add New Members
+The people page ([`_pages/people.md`](_pages/people.md)) is a photo grid: each member is
+one card with a square photo, name, position, and social icons. Everything lives in the
+page's YAML front matter — there are no per-person Markdown files any more.
 
-### 1. Edit the `_pages/people.md` File
+- Layout: [`_layouts/profiles.html`](_layouts/profiles.html)
+- Styles: [`_sass/_people.scss`](_sass/_people.scss)
+- Social icons: [`_includes/social_profile.html`](_includes/social_profile.html)
 
-Add new member configurations in the `profiles` section:
+## How to Add a New Member
+
+### 1. Add an entry to the `profiles` list in `_pages/people.md`
 
 ```yaml
 profiles:
-  - align: right           # Image alignment: left or right
-    image: people/NAME.jpg # Image path (relative to assets/img/)
-    content: NAME.md       # Member detail file (in _pages/ directory)
-    image_circular: false  # Whether to display as circular avatar
-    more_info: >          # Basic information (position, office, etc.)
-      <p>Position</p>
-      <p>Office: Room XXX</p>
-    social:               # Social media links (optional)
-      email: name@example.com
-      website: https://personal-website.com
+  - role: PhD                              # which section the card goes in (see `groups`)
+    name: Jane Doe                         # displayed name
+    image: people/janedoe.jpg              # path relative to assets/img/
+    position: PhD Student                  # position line; <br> is allowed
+    image_position: center 25%             # optional, see "Photo framing" below
+    image_circular: false                  # optional, true = round avatar
+    social:                                # all fields optional
+      email: jane.doe@mbzuai.ac.ae
+      website: https://janedoe.github.io/
       scholar_userid: GOOGLE_SCHOLAR_ID
       github_username: github_username
       linkedin_username: linkedin-username
@@ -26,88 +31,56 @@ profiles:
       research_gate_profile: ResearchGate_Name
 ```
 
-### 2. Create Member Detail File
+If `social.website` is set, the name itself also links to it.
 
-Create a `NAME.md` file in the `_pages/` directory, content example:
+### 2. Add the photo
 
-```markdown
-## Member Name
+Put it in [`assets/img/people/`](assets/img/people/). Photos are cropped to a square
+(`object-fit: cover`), so a roughly square, face-centred image works best.
+Recommended: 400x400 px, under 500 KB.
 
-**Research Interests:** List research interest areas
+### 3. Check the framing
 
-Brief personal introduction...
+The square crop is taken from the centre by default, which clips the top of the head on
+tall portraits. If that happens, set `image_position` on the profile — it maps straight
+to CSS `object-position`, where the second value is how far down the crop window sits:
 
-### Education Background
-- Ph.D. in XXX, University Name, Year
-- M.S. in XXX, University Name, Year
-- B.S. in XXX, University Name, Year
+| Value | Effect |
+| --- | --- |
+| `center 0%` / `center top` | crop from the top — use when the head is clipped |
+| `center 50%` | the default |
+| `center 100%` / `center bottom` | crop from the bottom — use for full-body shots |
 
-### Research Projects (Optional)
-- Project 1: Brief description
-- Project 2: Brief description
+Panning only moves the window; it cannot zoom in. If the person is small in the frame
+(distant or scenic shots), the only fix is a tighter source photo.
 
-### Representative Papers (Optional)
-- Paper 1 details
-- Paper 2 details
+## Sections
 
-### Contact Information (Optional)
-- Email: name@example.com
-- Office: Building A, Room XXX (optional)
-- Office Hours: Monday and Wednesday, 14:00-16:00 (optional)
+Sections and their order come from the `groups` list in the front matter. Each group
+pulls every profile whose `role` matches:
+
+```yaml
+groups:
+  - title: Faculty
+    role: PI
+  - title: PhD Students
+    role: PhD
+    note: Optional small grey line under the heading.
 ```
 
-### 3. Add Member Photo
+Current roles: `PI`, `Postdoc`, `PhD`, `MSc`, `Visiting`. To add a section, add a
+`groups` entry with a new `role` and use that `role` on the relevant profiles. A group
+with no matching members is skipped, so you can leave it in place.
 
-Place member photos in the `assets/img/people/` directory:
-- Filename: `NAME.jpg` or `NAME.png`
-- Recommended size: 400x400 pixels (square) or 400x500 pixels (portrait)
-- File size: Recommended less than 500KB
+Within a section, cards appear in the order the profiles are listed. The grid fits four
+cards per row on desktop and two on mobile.
 
-## Supported Social Media Links
+## Alumni
 
-The following links can be added in the `social` section:
+Alumni live in the Markdown body of `_pages/people.md`, below the front matter, as plain
+Markdown tables (name / degree / period). They render as compact rows on desktop and
+stack into blocks on mobile.
 
-- **email**: Email address
-- **website**: Personal homepage URL
-- **scholar_userid**: Google Scholar user ID
-- **github_username**: GitHub username
-- **linkedin_username**: LinkedIn username (part after /in/ in the URL)
-- **twitter_username**: Twitter username (without @)
-- **orcid_id**: ORCID ID (format: 0000-0000-0000-0000)
-- **research_gate_profile**: ResearchGate profile name
+## Removing Someone Temporarily
 
-## How to Get IDs from Different Platforms
-
-### Google Scholar ID
-1. Visit your Google Scholar profile page
-2. URL format: `https://scholar.google.com/citations?user=YOUR_ID`
-3. Copy the ID after `user=`
-
-### LinkedIn Username
-1. Visit your LinkedIn profile page
-2. URL format: `https://www.linkedin.com/in/YOUR_USERNAME`
-3. Copy the username after `/in/`
-
-### ORCID ID
-1. Visit your ORCID profile page
-2. URL format: `https://orcid.org/0000-0000-0000-0000`
-3. Copy the complete ID (including hyphens)
-
-### ResearchGate Profile
-1. Visit your ResearchGate profile page
-2. URL format: `https://www.researchgate.net/profile/YOUR_NAME`
-3. Copy the name after `/profile/`
-
-## Page Ordering
-
-The display order of members on the page is determined by their order in the `people.md` file. It's generally recommended to arrange them in the following order:
-1. Principal Investigator (PI)
-2. Postdoctoral Researchers
-3. PhD Students
-4. Master Students
-5. Undergraduate Students
-6. Alumni (optional)
-
-## Style Customization
-
-To modify the people page styles, you can edit the `.profile` related styles in the `_sass/_layout.scss` file.
+Comment out their `profiles` entry with `#`, as done for past visiting students.
