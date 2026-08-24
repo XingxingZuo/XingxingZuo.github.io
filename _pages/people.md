@@ -75,7 +75,7 @@ profiles:
     name: Chenru Wen
     image: people/chenruwen.png
     image_position: center top
-    position: M.Sc. Student<br>Co-advised with Prof. Dezhen Song
+    position: M.Sc. Student<br>Co-supervised with Prof. Dezhen Song
     social:
       email: chenru.wen@mbzuai.ac.ae
 
@@ -138,8 +138,8 @@ profiles:
 
 | Name | Degree | Period |
 | --- | --- | --- |
-| [Xiaolei Lang](https://scholar.google.com/citations?user=59RQI_IAAAAJ) | Ph.D., ZJU (co-advised with Prof. Yong Liu) | 2020.09 – 2025.09 |
-| [Jiajun Lv](https://scholar.google.com/citations?user=-CQD_HgAAAAJ&hl=en) | Ph.D., ZJU (co-advised with Prof. Yong Liu) | 2018.09 – 2023.06 |
+| [Xiaolei Lang](https://scholar.google.com/citations?user=59RQI_IAAAAJ) | Ph.D., ZJU (co-supervised with Prof. Yong Liu) | 2020.09 – 2025.09 |
+| [Jiajun Lv](https://scholar.google.com/citations?user=-CQD_HgAAAAJ&hl=en) | Ph.D., ZJU (co-supervised with Prof. Yong Liu) | 2018.09 – 2023.06 |
 
 ### Master and Bachelor Students
 
