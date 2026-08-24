@@ -22,8 +22,8 @@ groups:
 profiles:
   - role: PI
     name: Xingxing Zuo
-    image: people/xingxingzuo_profile.jpg
-    image_position: center 15%
+    image: people/xingxingzuo_profile1.png
+    image_position: center top
     position: Assistant Professor, Robotics
     social:
       email: xingxing.zuo@mbzuai.ac.ae
@@ -36,7 +36,7 @@ profiles:
     name: Hongjia Zhai
     image: people/hongjiazhai.jpg
     image_position: center bottom
-    position: Postdoctoral Researcher<br>Co-supervised with Prof. Ian Reid
+    position: Postdoctoral Researcher<br>Co-sup. with Prof. Ian Reid <br>PhD, Zhejiang University
     social:
       website: https://zhaihongjia.github.io/
       scholar_userid: alXpF8wAAAAJ
@@ -45,7 +45,7 @@ profiles:
     name: Huajian Zeng
     image: people/huajianzeng.png
     image_position: center top
-    position: PhD Student
+    position: PhD Student <br>MSc, TUM
     social:
       email: huajian.zeng@mbzuai.ac.ae
       website: https://huajian-zeng.github.io/
@@ -56,35 +56,19 @@ profiles:
   - role: PhD
     name: Yuantai Zhang
     image: people/yuantaizhang.jpg
-    position: PhD Student
+    position: PhD Student<br>MSc, Wuhan University
     social:
       email: yuantai.zhang@mbzuai.ac.ae
       scholar_userid: Lh2CthAAAAAJ
       linkedin_username: yuantai-zhang-801704381
 
-  - role: PhD
-    name: Yasser Ashraf Saleh Attia
-    image: people/yasserashrafsalehattia.jpg
-    position: PhD Student
-    social:
-      email: yasser.attia@mbzuai.ac.ae
-      scholar_userid: Q_r99BgAAAAJ&hl
-      github_username: Yasser-Ashraf-Saleh
-
   - role: MSc
     name: Chenru Wen
     image: people/chenruwen.png
     image_position: center top
-    position: M.Sc. Student<br>Co-supervised with Prof. Dezhen Song
+    position: M.Sc. Student<br>Co-sup. with Prof. Dezhen Song<br>BSc, Tsinghua University
     social:
       email: chenru.wen@mbzuai.ac.ae
-
-  - role: Visiting
-    name: Jiaqi Yang
-    image: people/jiaqiyang.jpg
-    position: Visiting PhD Student<br>ShanghaiTech University
-    social:
-      email: jiaqi.yang@mbzuai.ac.ae
 
   - role: Visiting
     name: Kaijie Yin
@@ -92,42 +76,12 @@ profiles:
     position: Visiting PhD Student<br>The University of Tokyo
 
   - role: Visiting
-    name: Omar Atef Labib Mohamed Garib
-    image: people/omargarib.jpeg
-    position: Visiting Master Student<br>Georgia Tech
-    social:
-      email: omar.garib@mbzuai.ac.ae
-
-  - role: Visiting
-    name: Yiran Yuan
-    image: people/yiranyuan.jpg
-    image_position: center 75%
-    position: Visiting Master Student<br>UC Berkeley
-    social:
-      email: yiran.yuan@mbzuai.ac.ae
-
-  - role: Visiting
     name: Mingkai Liu
     image: people/mingkailiu.png
     image_position: center top
     position: Visiting Master Student<br>Peking University
 
-  # - role: Visiting
-  #   name: Yibin Wu
-  #   image: people/yibinwu.jpg
-  #   position: Visiting PhD Student<br>University of Bonn
-  #   social:
-  #     email: yibin.wu@mbzuai.ac.ae
 
-  # - role: Visiting
-  #   name: Sifan Zhou
-  #   image: people/sifanzhou.jpg
-  #   position: Visiting PhD Student<br>Southeast University
-  #   social:
-  #     email: sifan.zhou@mbzuai.ac.ae
-  #     scholar_userid: kSdqoi0AAAAJ&hl
-  #     github_username: StiphyJay
-  #     linkedin_username: sifan-zhou-99838028b
 ---
 
 ## Alumni
@@ -157,3 +111,11 @@ profiles:
 | Dongyue Lu | M.Sc., TUM | 2022.09 – 2023.05 |
 | Zhijie Ye | M.Sc., TUM | 2021.12 – 2022.08 |
 | Jingyuan Ma | M.Sc., ETH Zurich | 2020.02 – 2020.08 |
+
+### Visiting Students at MBZUAI
+
+| Name       | Degree                                           | Period            |
+| ---------- | ------------------------------------------------ | ----------------- |
+| Jiaqi Yang | Visiting PhD, ShanghaiTech | 2025.09 – 2026.07 |
+| Omar Atef Labib Mohamed Garib           | Visiting MSc., GeorgiaTech   | 2026.01 – 2026.04 |
+| Yiran Yuan           | Visiting MSc., UC Berkeley   | 2026.02 – 2026.05 |
