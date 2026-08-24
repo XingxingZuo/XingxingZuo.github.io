@@ -36,7 +36,7 @@ profiles:
     name: Hongjia Zhai
     image: people/hongjiazhai.jpg
     image_position: center bottom
-    position: Postdoctoral Researcher
+    position: Postdoctoral Researcher<br>Co-supervised with Prof. Ian Reid
     social:
       website: https://zhaihongjia.github.io/
       scholar_userid: alXpF8wAAAAJ
