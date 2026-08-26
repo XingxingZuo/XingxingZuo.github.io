@@ -88,6 +88,7 @@ profiles:
     position: PhD Student<br>MS, University of Michigan
     social:
       email: Haoran.Zhang@mbzuai.ac.ae
+      website: https://haoranzhangumich.github.io/
       scholar_userid: BrA5fjoAAAAJ
       github_username: HaoranZhangumich
       linkedin_username: haoran-zhang-6556b1251
