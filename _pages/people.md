@@ -62,6 +62,53 @@ profiles:
       scholar_userid: Lh2CthAAAAAJ
       linkedin_username: yuantai-zhang-801704381
 
+  - role: PhD
+    name: Artem Voronov
+    image: people/artemvoronov.jpg
+    position: PhD Student
+    social:
+      email: artem.voronov@mbzuai.ac.ae
+      scholar_userid: rCVVahYAAAAJ
+      github_username: Vor-Art
+      linkedin_username: artem-voronov-inno
+
+  - role: PhD
+    name: Han Zhou
+    image: people/hanzhou.jpg
+    position: PhD Student<br>BEng, Huazhong University of Science and Technology
+    social:
+      email: han.zhou@mbzuai.ac.ae
+      website: https://hanzhou04.github.io/
+      github_username: micdz
+
+  - role: PhD
+    name: Haoran Zhang
+    image: people/haoranzhang.jpg
+    image_position: center top
+    position: PhD Student<br>MS, University of Michigan
+    social:
+      email: Haoran.Zhang@mbzuai.ac.ae
+      scholar_userid: BrA5fjoAAAAJ
+      github_username: HaoranZhangumich
+      linkedin_username: haoran-zhang-6556b1251
+
+  - role: PhD
+    name: Lei Cheng
+    image: people/leicheng.png
+    position: PhD Student<br>MS, Technical University of Munich
+    social:
+      email: Lei.Cheng@mbzuai.ac.ae
+      github_username: Starry-lei
+
+  - role: PhD
+    name: Roman Voronov
+    image: people/romanvoronov.jpg
+    position: PhD Student<br>MSc, Skoltech
+    social:
+      email: Roman.Voronov@mbzuai.ac.ae
+      scholar_userid: Nbs9mosAAAAJ
+      github_username: V-Roman-V
+
   - role: MSc
     name: Chenru Wen
     image: people/chenruwen.png
@@ -69,6 +116,17 @@ profiles:
     position: M.Sc. Student<br>Co-sup. with Prof. Dezhen Song<br>BSc, Tsinghua University
     social:
       email: chenru.wen@mbzuai.ac.ae
+
+  - role: MSc
+    name: Haokai Ding
+    image: people/haokaiding.png
+    position: M.Sc. Student<br>BEng, Shenzhen Technology University
+    social:
+      email: ditang0125@gmail.com
+      website: https://haokaiding.github.io/
+      scholar_userid: ikir1CUAAAAJ
+      github_username: HaokaiDing
+      linkedin_username: haokai-ding-a76a7232a
 
   - role: Visiting
     name: Kaijie Yin
