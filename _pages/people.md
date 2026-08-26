@@ -65,7 +65,7 @@ profiles:
   - role: PhD
     name: Artem Voronov
     image: people/artemvoronov.jpg
-    position: PhD Student
+    position: PhD Student<br>MSc, Skoltech
     social:
       email: artem.voronov@mbzuai.ac.ae
       scholar_userid: rCVVahYAAAAJ
@@ -85,7 +85,7 @@ profiles:
     name: Haoran Zhang
     image: people/haoranzhang.jpg
     image_position: center top
-    position: PhD Student<br>MS, University of Michigan
+    position: PhD Student<br>MSc, University of Michigan
     social:
       email: Haoran.Zhang@mbzuai.ac.ae
       website: https://haoranzhangumich.github.io/
@@ -96,7 +96,7 @@ profiles:
   - role: PhD
     name: Lei Cheng
     image: people/leicheng.png
-    position: PhD Student<br>MS, Technical University of Munich
+    position: PhD Student<br>MSc, TUM
     social:
       email: Lei.Cheng@mbzuai.ac.ae
       github_username: Starry-lei
@@ -114,14 +114,14 @@ profiles:
     name: Chenru Wen
     image: people/chenruwen.png
     image_position: center top
-    position: M.Sc. Student<br>Co-sup. with Prof. Dezhen Song<br>BSc, Tsinghua University
+    position: MSc Student<br>Co-sup. with Prof. Dezhen Song<br>BSc, Tsinghua University
     social:
       email: chenru.wen@mbzuai.ac.ae
 
   - role: MSc
     name: Haokai Ding
     image: people/haokaiding.png
-    position: M.Sc. Student<br>BEng, Shenzhen Technology University
+    position: MSc Student<br>BEng, Shenzhen Technology University
     social:
       email: ditang0125@gmail.com
       website: https://haokaiding.github.io/
