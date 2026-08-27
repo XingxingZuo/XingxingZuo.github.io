@@ -119,16 +119,6 @@ profiles:
       scholar_userid: Nbs9mosAAAAJ
       github_username: V-Roman-V
 
-  - role: PhD
-    name: Yasser Ashraf Saleh Attia
-    profile_url: https://rcl-group.github.io/authors/yasser-attia/
-    image: people/yasserashrafsalehattia.jpg
-    position: PhD Student<br>MSc, MBZUAI
-    social:
-      email: yasser.attia@mbzuai.ac.ae
-      scholar_userid: Q_r99BgAAAAJ
-      github_username: Yasser-Ashraf-Saleh
-
   - role: MSc
     name: Chenru Wen
     profile_url: https://rcl-group.github.io/authors/chenru-wen/
