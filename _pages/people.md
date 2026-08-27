@@ -22,6 +22,7 @@ groups:
 profiles:
   - role: PI
     name: Xingxing Zuo
+    profile_url: https://rcl-group.github.io/authors/admin/
     image: people/xingxingzuo_profile1.png
     image_position: center top
     position: Assistant Professor, Robotics
@@ -34,6 +35,7 @@ profiles:
 
   - role: Postdoc
     name: Hongjia Zhai
+    profile_url: https://rcl-group.github.io/authors/hongjia-zhai/
     image: people/hongjiazhai.jpg
     image_position: center bottom
     position: Postdoctoral Researcher<br>Co-sup. with Prof. Ian Reid <br>PhD, Zhejiang University
@@ -43,6 +45,7 @@ profiles:
 
   - role: PhD
     name: Huajian Zeng
+    profile_url: https://rcl-group.github.io/authors/huajian-zeng/
     image: people/huajianzeng.png
     image_position: center top
     position: PhD Student <br>MSc, TUM
@@ -55,6 +58,7 @@ profiles:
 
   - role: PhD
     name: Yuantai Zhang
+    profile_url: https://rcl-group.github.io/authors/yuantai-zhang/
     image: people/yuantaizhang.jpg
     position: PhD Student<br>MSc, Wuhan University
     social:
@@ -64,6 +68,7 @@ profiles:
 
   - role: PhD
     name: Artem Voronov
+    profile_url: https://rcl-group.github.io/authors/artem-voronov/
     image: people/artemvoronov.jpg
     position: PhD Student<br>MSc, Skoltech
     social:
@@ -74,6 +79,7 @@ profiles:
 
   - role: PhD
     name: Han Zhou
+    profile_url: https://rcl-group.github.io/authors/han-zhou/
     image: people/hanzhou.jpg
     position: PhD Student<br>BEng, Huazhong University of Science and Technology
     social:
@@ -83,6 +89,7 @@ profiles:
 
   - role: PhD
     name: Haoran Zhang
+    profile_url: https://rcl-group.github.io/authors/haoran-zhang/
     image: people/haoranzhang.jpg
     image_position: center top
     position: PhD Student<br>MSc, University of Michigan
@@ -95,6 +102,7 @@ profiles:
 
   - role: PhD
     name: Lei Cheng
+    profile_url: https://rcl-group.github.io/authors/lei-cheng/
     image: people/leicheng.png
     position: PhD Student<br>MSc, TUM
     social:
@@ -103,6 +111,7 @@ profiles:
 
   - role: PhD
     name: Roman Voronov
+    profile_url: https://rcl-group.github.io/authors/roman-voronov/
     image: people/romanvoronov.jpg
     position: PhD Student<br>MSc, Skoltech
     social:
@@ -110,8 +119,19 @@ profiles:
       scholar_userid: Nbs9mosAAAAJ
       github_username: V-Roman-V
 
+  - role: PhD
+    name: Yasser Ashraf Saleh Attia
+    profile_url: https://rcl-group.github.io/authors/yasser-attia/
+    image: people/yasserashrafsalehattia.jpg
+    position: PhD Student<br>MSc, MBZUAI
+    social:
+      email: yasser.attia@mbzuai.ac.ae
+      scholar_userid: Q_r99BgAAAAJ
+      github_username: Yasser-Ashraf-Saleh
+
   - role: MSc
     name: Chenru Wen
+    profile_url: https://rcl-group.github.io/authors/chenru-wen/
     image: people/chenruwen.png
     image_position: center top
     position: MSc Student<br>Co-sup. with Prof. Dezhen Song<br>BSc, Tsinghua University
@@ -120,6 +140,7 @@ profiles:
 
   - role: MSc
     name: Haokai Ding
+    profile_url: https://rcl-group.github.io/authors/haokai-ding/
     image: people/haokaiding.png
     position: MSc Student<br>BEng, Shenzhen Technology University
     social:
@@ -131,14 +152,25 @@ profiles:
 
   - role: Visiting
     name: Kaijie Yin
+    profile_url: https://rcl-group.github.io/authors/kaijie-yin/
     image: people/kaijieyin.jpg
     position: Visiting PhD Student<br>The University of Tokyo
 
   - role: Visiting
     name: Mingkai Liu
+    profile_url: https://rcl-group.github.io/authors/mingkai-liu/
     image: people/mingkailiu.png
     image_position: center top
     position: Visiting Master Student<br>Peking University
+
+  - role: Visiting
+    name: Zuxing Lu
+    image: people/zuxinglu.jpg
+    image_position: center top
+    position: Visiting PhD Student<br>Southeast University
+    social:
+      email: 3263760852@qq.com
+      github_username: Beat-in-our-hearts
 
 
 ---

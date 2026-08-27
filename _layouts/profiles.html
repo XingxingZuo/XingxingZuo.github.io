@@ -13,19 +13,22 @@ layout: page
 
           <div class="people-grid">
             {% for person in members %}
+              {% assign profile_link = person.profile_url | default: person.social.website %}
               <div class="person">
                 {% if person.image %}
                   {% assign image_path = person.image | prepend: 'assets/img/' %}
+                  {% if profile_link %}<a class="person-image-link" href="{{ profile_link }}" target="_blank" rel="noopener" aria-label="View {{ person.name }}'s profile">{% endif %}
                   <img src="{{ image_path | relative_url }}"
                        alt="{{ person.name }}"
                        class="{% if person.image_circular %}person-img-circle{% endif %}"
                        {% if person.image_position %}style="object-position: {{ person.image_position }};"{% endif %}
                        loading="lazy">
+                  {% if profile_link %}</a>{% endif %}
                 {% endif %}
 
                 <p class="person-name">
-                  {% if person.social.website %}
-                    <a href="{{ person.social.website }}" target="_blank" rel="noopener">{{ person.name }}</a>
+                  {% if profile_link %}
+                    <a href="{{ profile_link }}" target="_blank" rel="noopener">{{ person.name }}</a>
                   {% else %}
                     {{ person.name }}
                   {% endif %}
