@@ -104,7 +104,7 @@ profiles:
     name: Lei Cheng
     profile_url: https://rcl-group.github.io/authors/lei-cheng/
     image: people/leicheng.png
-    position: PhD Student<br>MSc, TUM
+    position: PhD Student<br>Co-sup. with Prof. Yoshihiko Nakamura<br>MSc, TUM 
     social:
       email: Lei.Cheng@mbzuai.ac.ae
       github_username: Starry-lei
@@ -132,7 +132,7 @@ profiles:
     name: Haokai Ding
     profile_url: https://rcl-group.github.io/authors/haokai-ding/
     image: people/haokaiding.png
-    position: MSc Student<br>BEng, Shenzhen Technology University
+    position: MSc Student<br>Co-sup. with Prof. Yoshihiko Nakamura<br>BEng, Shenzhen Technology University
     social:
       email: ditang0125@gmail.com
       website: https://haokaiding.github.io/
@@ -161,6 +161,8 @@ profiles:
     social:
       email: 3263760852@qq.com
       github_username: Beat-in-our-hearts
+      
+ # | Jiaqi Yang | Visiting PhD, ShanghaiTech | 2025.09 – 2026.07 |
 
 
 ---
@@ -197,6 +199,5 @@ profiles:
 
 | Name       | Degree                                           | Period            |
 | ---------- | ------------------------------------------------ | ----------------- |
-| Jiaqi Yang | Visiting PhD, ShanghaiTech | 2025.09 – 2026.07 |
 | Omar Atef Labib Mohamed Garib           | Visiting MSc., GeorgiaTech   | 2026.01 – 2026.04 |
 | Yiran Yuan           | Visiting MSc., UC Berkeley   | 2026.02 – 2026.05 |
