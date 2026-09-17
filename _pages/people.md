@@ -44,6 +44,16 @@ profiles:
       scholar_userid: alXpF8wAAAAJ
 
   - role: PhD
+    name: Yuantai Zhang
+    profile_url: https://rcl-group.github.io/authors/yuantai-zhang/
+    image: people/yuantaizhang.jpg
+    position: PhD Student<br>MSc, Wuhan University
+    social:
+      email: yuantai.zhang@mbzuai.ac.ae
+      scholar_userid: Lh2CthAAAAAJ
+      linkedin_username: yuantai-zhang-801704381
+
+  - role: PhD
     name: Huajian Zeng
     profile_url: https://rcl-group.github.io/authors/huajian-zeng/
     image: people/huajianzeng.png
@@ -55,16 +65,6 @@ profiles:
       scholar_userid: RN6p8AEAAAAJ
       github_username: huajian-zeng
       linkedin_username: huajian-zeng-7282b8214
-
-  - role: PhD
-    name: Yuantai Zhang
-    profile_url: https://rcl-group.github.io/authors/yuantai-zhang/
-    image: people/yuantaizhang.jpg
-    position: PhD Student<br>MSc, Wuhan University
-    social:
-      email: yuantai.zhang@mbzuai.ac.ae
-      scholar_userid: Lh2CthAAAAAJ
-      linkedin_username: yuantai-zhang-801704381
 
   - role: PhD
     name: Artem Voronov
@@ -101,15 +101,6 @@ profiles:
       linkedin_username: haoran-zhang-6556b1251
 
   - role: PhD
-    name: Lei Cheng
-    profile_url: https://rcl-group.github.io/authors/lei-cheng/
-    image: people/leicheng.png
-    position: PhD Student<br>Co-sup. with Prof. Yoshihiko Nakamura<br>MSc, TUM 
-    social:
-      email: Lei.Cheng@mbzuai.ac.ae
-      github_username: Starry-lei
-
-  - role: PhD
     name: Roman Voronov
     profile_url: https://rcl-group.github.io/authors/roman-voronov/
     image: people/romanvoronov.jpg
@@ -118,6 +109,15 @@ profiles:
       email: Roman.Voronov@mbzuai.ac.ae
       scholar_userid: Nbs9mosAAAAJ
       github_username: V-Roman-V
+
+  - role: PhD
+    name: Lei Cheng
+    profile_url: https://rcl-group.github.io/authors/lei-cheng/
+    image: people/leicheng.png
+    position: PhD Student<br>Co-sup. with Prof. Yoshihiko Nakamura<br>MSc, TUM 
+    social:
+      email: Lei.Cheng@mbzuai.ac.ae
+      github_username: Starry-lei
 
   - role: MSc
     name: Chenru Wen
@@ -128,16 +128,16 @@ profiles:
     social:
       email: chenru.wen@mbzuai.ac.ae
 
-  - role: MSc
-    name: Haokai Ding
-    profile_url: https://rcl-group.github.io/authors/haokai-ding/
-    image: people/haokaiding.png
-    position: MSc Student<br>Co-sup. with Prof. Yoshihiko Nakamura<br>BEng, Shenzhen Technology University
-    social:
-      email: ditang0125@gmail.com
-      website: https://haokaiding.github.io/
-      scholar_userid: ikir1CUAAAAJ
-      github_username: HaokaiDing
+  # - role: MSc
+  #   name: Haokai Ding
+  #   profile_url: https://rcl-group.github.io/authors/haokai-ding/
+  #   image: people/haokaiding.png
+  #   position: MSc Student<br>Co-sup. with Prof. Yoshihiko Nakamura<br>BEng, Shenzhen Technology University
+  #   social:
+  #     email: ditang0125@gmail.com
+  #     website: https://haokaiding.github.io/
+  #     scholar_userid: ikir1CUAAAAJ
+  #     github_username: HaokaiDing
       linkedin_username: haokai-ding-a76a7232a
 
   - role: Visiting
@@ -145,13 +145,6 @@ profiles:
     profile_url: https://rcl-group.github.io/authors/kaijie-yin/
     image: people/kaijieyin.jpg
     position: Visiting PhD Student<br>The University of Tokyo
-
-  - role: Visiting
-    name: Mingkai Liu
-    profile_url: https://rcl-group.github.io/authors/mingkai-liu/
-    image: people/mingkailiu.png
-    image_position: center top
-    position: Visiting Master Student<br>Peking University
 
   - role: Visiting
     name: Zuxing Lu
@@ -162,14 +155,28 @@ profiles:
       email: 3263760852@qq.com
       github_username: Beat-in-our-hearts
       
- # | Jiaqi Yang | Visiting PhD, ShanghaiTech | 2025.09 – 2026.07 |
+
 
 
 ---
 
 ## Alumni
 
-<p class="section-note">Students supervised by Prof. Xingxing Zuo before joining MBZUAI.</p>
+
+### Visiting Students at MBZUAI
+
+| Name       | Degree                                           | Period            |
+| ---------- | ------------------------------------------------ | ----------------- |
+| Mingkai Liu          | Visiting MSc., Peking University   | 2026.06 – 2026.09 |
+| Yiran Yuan           | Visiting MSc., UC Berkeley   | 2026.02 – 2026.05 |
+| Omar Atef Labib Mohamed Garib           | Visiting MSc., GeorgiaTech   | 2026.01 – 2026.04 |
+| Jiaqi Yang | Visiting PhD, ShanghaiTech | 2025.09 – 2026.07 |
+
+
+<p class="section-note"> </p>
+<p class="section-note"> </p>
+<p class="section-note"> </p>
+<p class="section-note">Students supervised by Prof. Xingxing Zuo before joining MBZUAI: </p>
 
 ### Ph.D. Students
 
@@ -195,9 +202,4 @@ profiles:
 | Zhijie Ye | M.Sc., TUM | 2021.12 – 2022.08 |
 | Jingyuan Ma | M.Sc., ETH Zurich | 2020.02 – 2020.08 |
 
-### Visiting Students at MBZUAI
 
-| Name       | Degree                                           | Period            |
-| ---------- | ------------------------------------------------ | ----------------- |
-| Omar Atef Labib Mohamed Garib           | Visiting MSc., GeorgiaTech   | 2026.01 – 2026.04 |
-| Yiran Yuan           | Visiting MSc., UC Berkeley   | 2026.02 – 2026.05 |
