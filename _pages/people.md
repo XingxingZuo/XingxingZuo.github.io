@@ -53,18 +53,18 @@ profiles:
       scholar_userid: Lh2CthAAAAAJ
       linkedin_username: yuantai-zhang-801704381
 
-  - role: PhD
-    name: Huajian Zeng
-    profile_url: https://rcl-group.github.io/authors/huajian-zeng/
-    image: people/huajianzeng.png
-    image_position: center top
-    position: PhD Student <br>MSc, TUM
-    social:
-      email: huajian.zeng@mbzuai.ac.ae
-      website: https://huajian-zeng.github.io/
-      scholar_userid: RN6p8AEAAAAJ
-      github_username: huajian-zeng
-      linkedin_username: huajian-zeng-7282b8214
+  # - role: PhD
+  #   name: Huajian Zeng
+  #   profile_url: https://rcl-group.github.io/authors/huajian-zeng/
+  #   image: people/huajianzeng.png
+  #   image_position: center top
+  #   position: PhD Student <br>MSc, TUM
+  #   social:
+  #     email: huajian.zeng@mbzuai.ac.ae
+  #     website: https://huajian-zeng.github.io/
+  #     scholar_userid: RN6p8AEAAAAJ
+  #     github_username: huajian-zeng
+  #     linkedin_username: huajian-zeng-7282b8214
 
   - role: PhD
     name: Artem Voronov
@@ -138,13 +138,13 @@ profiles:
   #     website: https://haokaiding.github.io/
   #     scholar_userid: ikir1CUAAAAJ
   #     github_username: HaokaiDing
-      linkedin_username: haokai-ding-a76a7232a
+  #     linkedin_username: haokai-ding-a76a7232a
 
-  - role: Visiting
-    name: Kaijie Yin
-    profile_url: https://rcl-group.github.io/authors/kaijie-yin/
-    image: people/kaijieyin.jpg
-    position: Visiting PhD Student<br>The University of Tokyo
+  # - role: Visiting
+  #   name: Kaijie Yin
+  #   profile_url: https://rcl-group.github.io/authors/kaijie-yin/
+  #   image: people/kaijieyin.jpg
+  #   position: Visiting PhD Student<br>The University of Tokyo
 
   - role: Visiting
     name: Zuxing Lu
@@ -167,6 +167,7 @@ profiles:
 
 | Name       | Degree                                           | Period            |
 | ---------- | ------------------------------------------------ | ----------------- |
+| Kaijie Yin           | Visiting PhD,  University of Tokyo   | 2026.07 – 2026.10 |
 | Mingkai Liu          | Visiting MSc., Peking University   | 2026.06 – 2026.09 |
 | Yiran Yuan           | Visiting MSc., UC Berkeley   | 2026.02 – 2026.05 |
 | Omar Atef Labib Mohamed Garib           | Visiting MSc., GeorgiaTech   | 2026.01 – 2026.04 |
