@@ -154,6 +154,18 @@ profiles:
     social:
       email: 3263760852@qq.com
       github_username: Beat-in-our-hearts
+
+  - role: Visiting
+    name: Jingyu Liu
+    image: people/jingyuliu.jpg
+    image_position: center top
+    position: Visiting PhD Student<br>Southeast University
+    social:
+      email: jingyu.liu@seu.edu.cn
+      website: https://liuwhale.github.io/
+      scholar_userid: Sh7lu8EAAAAJ
+      github_username: LiuWhale
+      
       
 
 
