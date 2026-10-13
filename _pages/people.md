@@ -169,7 +169,7 @@ profiles:
   - role: Visiting
     name: Jinyi Sun
     image: people/jinyisun.jpg
-    position: Research Engineer<br>Bachelor, Shanghai Jiao Tong University
+    position: Research Engineer<br>BSc, Shanghai Jiao Tong University
     social:
       email: jinyi.sun@mbzuai.ac.ae
       github_username: Ce1estia1
