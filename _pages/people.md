@@ -16,7 +16,7 @@ groups:
     role: PhD
   - title: Master Students
     role: MSc
-  - title: Visiting Students
+  - title: Visiting Students & Research Engineers
     role: Visiting
 
 profiles:
@@ -165,6 +165,14 @@ profiles:
       website: https://liuwhale.github.io/
       scholar_userid: Sh7lu8EAAAAJ
       github_username: LiuWhale
+
+  - role: Visiting
+    name: Jinyi Sun
+    image: people/jinyisun.jpg
+    position: Research Engineer<br>Bachelor, Shanghai Jiao Tong University
+    social:
+      email: jinyi.sun@mbzuai.ac.ae
+      github_username: Ce1estia1
       
       
 
